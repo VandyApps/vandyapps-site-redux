@@ -21,5 +21,12 @@ export default () => (
                 height: 100%;
                 margin: 0;
             }
+
+            .container {
+                font-family: 'Nunito', sans-serif;
+                display: flex;
+                flex-direction: column;
+                height: inherit;
+            }
         `}</style>
     </div>)

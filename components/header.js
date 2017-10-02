@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link'
+import ActiveLink from './activelink'
 
 export default class extends React.Component {
     constructor() {
@@ -13,6 +15,7 @@ export default class extends React.Component {
                     padding: 0 4em;
                     box-sizing: border-box;
                     width: 100%;
+                    font-family: 'Nunito', sans-serif;
                 }
 
                 .header > * {
@@ -22,6 +25,7 @@ export default class extends React.Component {
                 .va-text {
                     font-weight: bold;
                     font-size: 1.5em;
+                    cursor: pointer;
                 }
 
                 .nav {
@@ -29,11 +33,7 @@ export default class extends React.Component {
                 }
 
                 .nav-item {
-                    line-height: 2em;
-                    display: inline-block;
                     margin-right: 2em;
-                    text-transform: uppercase;
-                    color: #5d5b66;
                 }
 
                 .nav-item:last-child {
@@ -41,13 +41,13 @@ export default class extends React.Component {
                 }
             `}
             </style>
-            <div className='va-text'>VandyApps</div>
+            <Link href='/'><div className='va-text'>VandyApps</div></Link>
             <div className='nav'>
-                <div className='nav-item'>Home</div>
-                <div className='nav-item'>Schedule</div>
-                <div className='nav-item'>Resources</div>
-                <div className='nav-item'>About</div>
-            </div>
+                <ActiveLink className='nav-item' href='/'>Home</ActiveLink>
+                <ActiveLink className='nav-item' href='/schedule'>Schedule</ActiveLink>
+                <ActiveLink className='nav-item' href='/resources'>Resources</ActiveLink>
+                <ActiveLink className='nav-item' href='/about'>About</ActiveLink>
+                </div>
         </div>
     }
 }

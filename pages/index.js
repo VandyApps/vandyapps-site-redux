@@ -4,6 +4,7 @@ import apngDetect from '../util/apng-detect';
 import resetGif from '../util/reset-gif';
 
 import Header from '../components/header';
+import Link from 'next/link';
 
 export default class extends React.Component {
   constructor() {
@@ -31,7 +32,7 @@ export default class extends React.Component {
     let logoSrc = this.state.logoSrc;
     let logoLoaded = this.state.logoLoaded;
     let mounted = this.state.mounted;
-    return <div className='home'>
+    return <div className='container home'>
       <Meta />
       <Header />
       <div className='logo-wrapper'>
@@ -40,16 +41,12 @@ export default class extends React.Component {
           <div className='logo-title'>We are Vanderbilt's<br />student-run CS club.</div>
           <div className='logo-buttons'>
             <div className='logo-btn primary'>See events</div>
-            <div className='logo-btn'>About</div>
+            <Link href="/about"><a className='logo-btn'>About</a></Link>
           </div>
         </div>
       </div>
       <style jsx>{`
       .home {
-        font-family: 'Nunito', sans-serif;
-        display: flex;
-        flex-direction: column;
-        height: inherit;
         align-items: flex-start;
       }
 
@@ -101,6 +98,7 @@ export default class extends React.Component {
         font-size: 14px;
         letter-spacing: 1px;
         text-transform: uppercase;
+        text-decoration: none;
         border: 1px solid #f05854;
         color: #f05854;
       }
