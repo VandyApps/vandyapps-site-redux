@@ -13,7 +13,6 @@ const ActiveLink = ({ children, router, href }) => {
         <style jsx>{`
             a {
                 margin-right: 2em;
-                font-size: .85em;
                 line-height: 2.5em;
                 text-decoration: none;
                 text-transform: uppercase;
