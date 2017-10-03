@@ -24,8 +24,6 @@ export default () => (
 
             .container {
                 font-family: 'Nunito', sans-serif;
-                display: flex;
-                flex-direction: column;
                 height: inherit;
             }
 

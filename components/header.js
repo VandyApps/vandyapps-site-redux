@@ -30,6 +30,7 @@ class Header extends React.Component {
                     background: #fff;
                     z-index: 9999;
                     box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+                    top: 0;
                 }
 
                 .header > * {
