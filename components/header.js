@@ -7,7 +7,7 @@ const Header = ({ router }) => {
     const className = 'header ' + (router.pathname === '/' ? 'landing' : '');
 
     return <div className={className}>
-        <style jsx>{`
+        <style jsx global>{`
                 .header {
                     margin: 2.5em 0 0;
                     padding: 0 4em;
@@ -20,37 +20,50 @@ const Header = ({ router }) => {
                     display: inline-block;
                 }
 
-                .va-logo-wrapper {
-                }
-
-                .va-logo {
+                .header .va-logo {
                     height: 2em;
-                    display: inline;
+                    display: inline-block;
                     margin-right: .75em;
+                    vertical-align: bottom;
                 }
 
                 .header.landing .va-logo {
                     display: none;
                 }
 
-                .va-text {
+                .header .va-text {
                     font-weight: bold;
                     font-size: 1.5em;
                     cursor: pointer;
-                    display: inline;
+                    display: inline-block;
                     vertical-align: top;
                 }
 
-                .nav {
-                    float: right;
+                .header .nav {
+                    display: block;
+                    width: 100%;
                 }
 
-                .nav-item {
-                    margin-right: 2em;
+                .header .nav a {
+                    display: block;
+                    width: 100%;
                 }
 
-                .nav-item:last-child {
-                    margin-right: 0;
+                @media (min-width: 768px) {
+                    .header .nav {
+                        display: inline;
+                        float: right;
+                        width: auto;
+                    }
+
+                    .header .nav a {
+                        display: inline;
+                        width: auto;
+                    }
+
+                    .header .nav-item:last-child {
+                        margin-right: 0;
+                    }
                 }
             `}
         </style>

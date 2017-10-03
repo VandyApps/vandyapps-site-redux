@@ -45,6 +45,12 @@ export default class extends React.Component {
           </div>
         </div>
       </div>
+      <style jsx global>{`
+        body {
+          background-image: url('/static/va-bg.jpg');
+          background-size: cover;
+        }
+      `}</style>
       <style jsx>{`
       .home {
         align-items: flex-start;
@@ -101,6 +107,7 @@ export default class extends React.Component {
         text-decoration: none;
         border: 1px solid #f05854;
         color: #f05854;
+        background-color: rgba(255, 255, 255, 0.8);
       }
 
       .logo-btn.primary {
