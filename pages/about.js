@@ -10,6 +10,10 @@ export default () =>
                  line-height: 1.66em;
                  padding: 0 4em;
             }
+
+            h1 {
+                font-weight: normal;
+            }
         `}</style>
         <Meta />
         <Header />

@@ -14,7 +14,7 @@ const ActiveLink = ({ children, router, href }) => {
             a {
                 margin-right: 2em;
                 font-size: .85em;
-                line-height: 2.36em;
+                line-height: 2.5em;
                 text-decoration: none;
                 text-transform: uppercase;
                 color: #a3a0ab;

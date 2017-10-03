@@ -52,7 +52,7 @@ export default class extends React.Component {
 
       .logo-wrapper {
         margin: auto auto;
-        padding-bottom: 2em;
+        padding-bottom: 2.5em;
         display: flex;
       }
 
