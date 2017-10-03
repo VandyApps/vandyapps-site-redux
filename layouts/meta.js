@@ -28,5 +28,15 @@ export default () => (
                 flex-direction: column;
                 height: inherit;
             }
+
+            .content {
+                margin: 7.5em auto 4em;
+            }
+
+            @media (min-width: 640px) {
+                .content {
+                    margin-top: 4em;
+                }
+            }
         `}</style>
     </div>)

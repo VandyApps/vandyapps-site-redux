@@ -6,10 +6,9 @@ export default () =>
         <style jsx>{`
             .about .content {
                  max-width: 900px;
-                 margin: 4em auto;
                  line-height: 1.66em;
                  padding: 0 4em;
-            }
+            }            
 
             h1 {
                 font-weight: normal;
