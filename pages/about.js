@@ -27,33 +27,5 @@ export default () =>
         iOS, Android, Linux Command Line, and Advanced Programming sessions. In addition, we bring in speakers from within
         the Vanderbilt community and also the greater Nashville community to give Tech Talks on special topics in Software
         Development. Our members go on to work at some of the best companies in the technology industry.</p>
-            <h1>Our Officers</h1>
-            <ul class="Officers">
-                <li>
-                    <ul class="President">President
-                <p >Varun Arora, <a href="mailto:varun.arora@vanderbilt.edu">varun.arora@vanderbilt.edu</a></p>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="Vice President">Vice President
-                <p >John Valin, <a href="mailto:john.a.valin@vanderbilt.edu">john.a.valin@vanderbilt.edu</a></p>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="Treasurer">Treasurer
-                <p >Yunyu Lin, <a href="mailto:yunyu.lin@vanderbilt.edu">yunyu.lin@vanderbilt.edu</a></p>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="Secretary">Secretary
-                <p >Sachit Bhat, <a href="mailto:sachit.s.bhat@vanderbilt.edu">sachit.s.bhat@vanderbilt.edu</a></p>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="Liaison">Liaison
-                <p >Omayow Adebanjo, <a href="mailto:omomayowa.f.adebanjo@vanderbilt.edu">omomayowa.f.adebanjo@vanderbilt.edu</a></p>
-                    </ul>
-                </li>
-            </ul>
         </div>
     </div>

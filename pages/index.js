@@ -119,6 +119,12 @@ export default class extends React.Component {
         margin-right: 1em;
       }
     `}</style>
+    <style jsx global>{`
+    .container {
+      display: flex;
+      flex-direction: column;
+    }  
+    `}</style>
     </div>
   }
 }

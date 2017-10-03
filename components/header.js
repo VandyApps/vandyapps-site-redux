@@ -59,7 +59,7 @@ class Header extends React.Component {
                 .header .nav {
                     display: block;
                     width: 100%;
-                    padding: 1em 0 .75em;
+                    padding: 1.5em 0 .75em;
                     text-align: center;
                     display: none;
                 }
@@ -78,7 +78,7 @@ class Header extends React.Component {
 
                 .header .menu {
                     height: .7em;
-                    margin: 0.75em 0 0.5em;
+                    margin: 0.6em 0 0.4em;
                     transition: transform 0.15s;
                     transform: rotate(0deg);
                 }
@@ -93,8 +93,7 @@ class Header extends React.Component {
 
                 @media (min-width: 640px) {
                     .header {
-                        margin: 2.5em 0 0;
-                        padding: 0 4em;
+                        padding: 2.5em 4em 0;
                         position: static;
                         background: transparent;
                         box-shadow: none;
