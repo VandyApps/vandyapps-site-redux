@@ -17,7 +17,6 @@ class Header extends React.Component {
         const className = 'header ' +
             (this.router.pathname === '/' ? 'landing ' : '') +
             (menuOpen ? 'menu-open' : '');
-        console.log(menuOpen);
         const toggleMenuOpen = () => this.setState({ menuOpen: !menuOpen });
 
         return <div className={className}>
@@ -59,7 +58,7 @@ class Header extends React.Component {
                 .header .nav {
                     display: block;
                     width: 100%;
-                    padding: 0 0 1.5em;
+                    padding: 1em 0 .75em;
                     text-align: center;
                     display: none;
                 }
@@ -88,7 +87,7 @@ class Header extends React.Component {
                 }
 
                 .header.menu-open .nav {
-                    display: initial;
+                    display: block;
                 }
 
                 @media (min-width: 640px) {
