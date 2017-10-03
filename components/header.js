@@ -27,10 +27,18 @@ class Header extends React.Component {
                     width: 100%;
                     font-family: 'Nunito', sans-serif;
                     position: fixed;
-                    background: #fff;
                     z-index: 9999;
-                    box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
                     top: 0;
+                }
+
+                .header.landing {
+                    background: none;
+                    box-shadow: none;
+                }
+
+                .header，.header.menu-open, .header.landing.menu-open {
+                    background: #fff;
+                    box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
                 }
 
                 .header > * {
@@ -92,7 +100,7 @@ class Header extends React.Component {
                 }
 
                 @media (min-width: 640px) {
-                    .header {
+                    .header, .header.menu-open, .header.landing.menu-open {
                         padding: 2.5em 4em 0;
                         position: static;
                         background: transparent;

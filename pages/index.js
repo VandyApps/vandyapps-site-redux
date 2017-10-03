@@ -123,7 +123,7 @@ export default class extends React.Component {
     .container {
       display: flex;
       flex-direction: column;
-    }  
+    }
     `}</style>
     </div>
   }
