@@ -6,6 +6,8 @@ import resetGif from '../util/reset-gif';
 import Header from '../components/header';
 import Link from 'next/link';
 
+let firstLoad = true;
+
 export default class extends React.Component {
   constructor() {
     super();
@@ -21,7 +23,10 @@ export default class extends React.Component {
     apngDetect(apng => {
       this.setState({ logoLoaded: true });
       if (apng) {
-        resetGif(this.imgEl);
+        if (firstLoad) {
+          firstLoad = false;
+          resetGif(this.imgEl);
+        }
       } else {
         this.setState({ logoSrc: '/static/vandyapps-static.png' });
       }
