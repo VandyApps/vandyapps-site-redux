@@ -50,6 +50,11 @@ export default class extends React.Component {
           background-image: url('/static/va-bg.jpg');
           background-size: cover;
         }
+
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
       `}</style>
       <style jsx>{`
       .home {
@@ -143,12 +148,6 @@ export default class extends React.Component {
       .logo-btn:first-child {
         margin-right: 1em;
       }
-    `}</style>
-      <style jsx global>{`
-    .container {
-      display: flex;
-      flex-direction: column;
-    }
     `}</style>
     </div>
   }

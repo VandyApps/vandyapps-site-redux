@@ -28,7 +28,7 @@ export default () => (
             }
 
             .content {
-                margin: 8em auto 4em;
+                margin: 7em auto 4em;
             }
 
             @media (min-width: 640px) {

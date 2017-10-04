@@ -7,8 +7,14 @@ export default () =>
             .about .content {
                  max-width: 900px;
                  line-height: 1.66em;
-                 padding: 0 4em;
-            }            
+                 padding: 0 2em;
+            }
+
+            @media (min-width: 640px) {
+                .about .content {
+                    padding: 0 4em;
+                }
+            }
 
             h1 {
                 font-weight: normal;
