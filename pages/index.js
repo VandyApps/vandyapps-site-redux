@@ -60,6 +60,8 @@ export default class extends React.Component {
         margin: auto auto;
         padding-bottom: 2.5em;
         display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       .logo, .logo-content {
@@ -91,9 +93,17 @@ export default class extends React.Component {
         color: #888;
       }
 
-      .logo-buttons {
-        position: absolute;
-        bottom: 0;
+      @media (min-width: 640px) {
+        .logo-wrapper {
+          text-align: initial;
+          flex-direction: row;
+          align-items: initial;
+        }
+
+        .logo-buttons {
+          position: absolute;
+          bottom: 0;
+        }
       }
 
       .logo-btn {
@@ -119,7 +129,7 @@ export default class extends React.Component {
         margin-right: 1em;
       }
     `}</style>
-    <style jsx global>{`
+      <style jsx global>{`
     .container {
       display: flex;
       flex-direction: column;

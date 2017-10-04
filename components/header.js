@@ -36,7 +36,7 @@ class Header extends React.Component {
                     box-shadow: none;
                 }
 
-                .header，.header.menu-open, .header.landing.menu-open {
+                .header, .header.menu-open, .header.landing.menu-open {
                     background: #fff;
                     box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
                 }
