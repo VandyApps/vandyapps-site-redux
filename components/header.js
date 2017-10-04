@@ -67,6 +67,10 @@ class Header extends React.Component {
                     display: inline-block;
                 }
 
+                .header .va-logo-wrapper {
+                    cursor: pointer;
+                }
+
                 .header .va-logo {
                     height: 2em;
                     display: inline-block;
@@ -81,7 +85,6 @@ class Header extends React.Component {
                 .header .va-text {
                     font-weight: bold;
                     font-size: 1.5em;
-                    cursor: pointer;
                     display: inline-block;
                     vertical-align: top;
                 }
