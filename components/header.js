@@ -1,22 +1,44 @@
-import React from 'react';
+import React from 'react'
 import { withRouter } from 'next/router'
 import Link from 'next/link'
 import ActiveLink from './activelink'
+import classNames from 'classnames'
 
 class Header extends React.Component {
     constructor(props) {
         super(props);
         this.router = this.props.router;
         this.state = {
-            menuOpen: false
+            menuOpen: false,
+            scrolledDown: false
         };
+        this.handleScroll = this.handleScroll.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll(event) {
+        let scrolledDown = document.documentElement.scrollTop > 0;
+        if (scrolledDown !== this.state.scrolledDown) {
+            this.setState({ scrolledDown });
+        }
     }
 
     render() {
         const menuOpen = this.state.menuOpen;
-        const className = 'header ' +
-            (this.router.pathname === '/' ? 'landing ' : '') +
-            (menuOpen ? 'menu-open' : '');
+        const scrolledDown = this.state.scrolledDown;
+        const className = classNames({
+            header: true,
+            scrolled: scrolledDown,
+            landing: this.router.pathname === '/',
+            'menu-open': menuOpen
+        });
         const toggleMenuOpen = () => this.setState({ menuOpen: !menuOpen });
 
         return <div className={className}>
@@ -31,12 +53,12 @@ class Header extends React.Component {
                     top: 0;
                 }
 
-                .header.landing {
+                .header.landing, .header.landing.scrolled {
                     background: none;
                     box-shadow: none;
                 }
 
-                .header, .header.menu-open, .header.landing.menu-open {
+                .header.scrolled, .header.menu-open, .header.landing.menu-open {
                     background: #fff;
                     box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
                 }
@@ -82,6 +104,7 @@ class Header extends React.Component {
                 .header .menu-toggle {
                     float: right;
                     cursor: pointer;
+                    -webkit-tap-highlight-color: transparent;
                 }
 
                 .header .menu {

@@ -7,7 +7,7 @@ export default () =>
             .about .content {
                  max-width: 900px;
                  line-height: 1.66em;
-                 padding: 0 2em;
+                 padding: 0 2.5em;
             }
 
             @media (min-width: 680px) {
