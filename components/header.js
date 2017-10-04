@@ -24,7 +24,7 @@ class Header extends React.Component {
     }
 
     handleScroll(event) {
-        let scrolledDown = document.documentElement.scrollTop > 0;
+        let scrolledDown = (window.pageYOffset || document.documentElement.scrollTop) > 0;
         if (scrolledDown !== this.state.scrolledDown) {
             this.setState({ scrolledDown });
         }
