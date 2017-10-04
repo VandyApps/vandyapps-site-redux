@@ -69,23 +69,22 @@ export default class extends React.Component {
       }
 
       .logo {
-        width: 217px;
-        height: 162px;
+        width: 130px;
         padding-top: 11px;
         transition: opacity .15s;
         vertical-align: bottom;
       }
 
       .logo-content {
-        margin-left: 4em;
         transition: opacity 1s;
         position: relative;
+        text-align: center;
       }
 
       .logo-title {
-        font-size: 2.15em;
         color: #5d5b66;
-        padding-right: 1em;
+        font-size: 1.75em;
+        margin: 1em 0;
       }
 
       .logo-subtitle {
@@ -98,6 +97,22 @@ export default class extends React.Component {
           text-align: initial;
           flex-direction: row;
           align-items: initial;
+        }
+
+        .logo {
+          width: 217px;
+          height: 166px;
+        }
+
+        .logo-content {
+          margin-left: 4em;
+          text-align: initial;
+        }
+
+        .logo-title {
+          font-size: 2.15em;
+          padding-right: 1em;
+          margin: 0;
         }
 
         .logo-buttons {
@@ -117,7 +132,7 @@ export default class extends React.Component {
         text-decoration: none;
         border: 1px solid #f05854;
         color: #f05854;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.6);
       }
 
       .logo-btn.primary {
