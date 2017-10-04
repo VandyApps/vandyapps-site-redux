@@ -18,7 +18,6 @@ export default () => (
             }
 
             html, body, body > div:first-child, #__next, #__next > div:first-child  {
-                height: 100%;
                 margin: 0;
             }
 
@@ -31,7 +30,7 @@ export default () => (
                 margin: 7em auto 4em;
             }
 
-            @media (min-width: 640px) {
+            @media (min-width: 680px) {
                 .content {
                     margin-top: 4em;
                 }

@@ -10,7 +10,7 @@ export default () =>
                  padding: 0 2em;
             }
 
-            @media (min-width: 640px) {
+            @media (min-width: 680px) {
                 .about .content {
                     padding: 0 4em;
                 }

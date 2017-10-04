@@ -99,7 +99,7 @@ class Header extends React.Component {
                     display: block;
                 }
 
-                @media (min-width: 640px) {
+                @media (min-width: 680px) {
                     .header, .header.menu-open, .header.landing.menu-open {
                         padding: 2.5em 4em 0;
                         position: static;
