@@ -114,7 +114,7 @@ export default class extends React.Component {
         }
 
         .logo-content {
-          margin-left: 4em;
+          margin-left: 3.75em;
           text-align: initial;
         }
 
