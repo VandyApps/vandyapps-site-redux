@@ -1,0 +1,24 @@
+{
+	"events": [
+		{
+			"name":"Weekly Meeting #1",
+			"date":"9/06/2017",
+			"descr":"At this workshop, we'll be focusing on learning HTML and CSS syntax."
+		},
+		{
+			"name":"Weekly Meeting #2",
+			"date":"9/13/2017",
+			"descr":"At this workshop, we'll be learning the fundamentals of Android development."
+		},
+		{
+			"name":"Weekly Meeting #3",
+			"date":"9/20/2017",
+			"descr":"At this workshop, we'll be focusing on hOw To GeT a JoB."
+		},
+		{
+			"name":"Weekly Meeting #4",
+			"date":"9/27/2017",
+			"descr":"At this workshop, we'll be learning functional programming in Javascript."
+		}
+	]
+}

@@ -1,6 +1,7 @@
 import Meta from '../layouts/meta';
 import Header from '../components/header';
-
+let eventData = require('../resources/events.json');
+alert(eventData['events'][0]['date']);
 export default () =>
 	<div className ='container schedule'>
 		<style jsx>{`
