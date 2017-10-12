@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "next": "latest",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "next": "^4.0.3",
+    "react": "16",
+    "react-dom": "16"
   },
   "license": "MIT"
 }
