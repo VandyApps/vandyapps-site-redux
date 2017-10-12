@@ -21,5 +21,5 @@ export default ({ event: event, eventKey: key }) => <ul className="event-card" s
     `}</style>
     <div className="event-date">{event.date}</div>
     <div className="event-title">{event.name}</div>
-    <div dangerouslySetInnerHTML={{__html: event.descr}}></div>
+    {event.descr()}
 </ul>
