@@ -1,8 +1,6 @@
-function generateColor(seed) {
-    return `rgba(${parseInt(255 * Math.random())}, ${parseInt(255 * Math.random())}, ${parseInt(255 * Math.random())}, 0.5)`;
-}
+import randomColor from '../resources/random-color'
 
-export default ({ event: event }) => <ul className="event-card" style={{ backgroundColor: generateColor() }}>
+export default ({ event: event }) => <ul className="event-card" style={{ backgroundColor: randomColor(event.date) }}>
     <style jsx>{`
     .event-card {
         border-radius: 4px;

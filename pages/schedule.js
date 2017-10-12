@@ -1,7 +1,7 @@
 import Meta from '../layouts/meta';
 import Header from '../components/header';
 import EventCard from '../components/event-card';
-import eventData from '../resources/events.json'
+import events from '../resources/events.json'
 
 export default () =>
     <div className='container content-page schedule'>
@@ -12,7 +12,7 @@ export default () =>
             <p>This page will list the events VandyApps will hold throughout the year. It's also
 			being regularly updated so please be sure to check back often!</p>
             <div className="event-list">
-            {eventData.events.map((event, i) => <EventCard key={i} event={event} />)}
+            {events.map((event, i) => <EventCard key={i} event={event} />)}
             </div>
         </div>
     </div>
