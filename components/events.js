@@ -1,34 +1,24 @@
 import React from 'react'
-import { withRouter } from 'next/router'
-import Link from 'next/link'
-import ActiveLink from './activelink'
 import classNames from 'classnames'
 import eventData from '../resources/events.json';
 
-export default class extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			value: 3,
-		};
-	}
-	render() {
-		var color = 0;
-		var eventList = eventData.events.map(function(event, i){
-			color = "rgba("+parseInt(255 * Math.random())+","+parseInt(255 * Math.random())+","+parseInt(255 * Math.random())+",0.5)";
-        	return (<ul key = {i} className = "eventBox" style={{backgroundColor: color}}>
-        			<li className = "eventTitle">{event.name}</li>
-        			<li className = "eventDate">{event.date}</li>
-        			<li>{
-        				event.descr.map((lineOfText, i) => {
-        					return (<p key = {i}>{lineOfText}</p>)
-        				})
-        			}</li>
-        			</ul>)
-    	}.bind(this))
+export default () => {
+	var color = 0;
+	var eventList = eventData.events.map((event, i) => {
+		color = "rgba(" + parseInt(255 * Math.random()) + "," + parseInt(255 * Math.random()) + "," + parseInt(255 * Math.random()) + ",0.5)";
+		return (<ul key={i} className="eventBox" style={{ backgroundColor: color }}>
+			<li className="eventTitle">{event.name}</li>
+			<li className="eventDate">{event.date}</li>
+			<li>{
+				event.descr.map((lineOfText, i) => {
+					return (<p key={i}>{lineOfText}</p>)
+				})
+			}</li>
+		</ul>)
+	})
 
-		return <div className = "Eventss">
-			<style jsx global>{`
+	return <div className="Eventss">
+		<style jsx global>{`
 				.eventBox {
 	            	background-color: rgba(0,0,0,0.1);
 	            	border-radius: 5px;
@@ -46,10 +36,9 @@ export default class extends React.Component {
 	            	font-size: 16px;
 	            }
 			`}</style>
-			<div className="eventList"></div>
-			<div>
-				{eventList}
-			</div>
+		<div className="eventList"></div>
+		<div>
+			{eventList}
 		</div>
-	}
+	</div>
 }
