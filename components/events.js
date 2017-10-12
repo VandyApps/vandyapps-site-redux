@@ -4,11 +4,7 @@ import EventCard from './event-card';
 import eventData from '../resources/events.json';
 
 export default () => {
-	const eventList = eventData.events.map((event, i) => {
-		return <EventCard key={i} event={event}/>
-	});
-
-	return <div className="Eventss">
+	return <div className="event-list">
 		<style jsx global>{`
 				.eventBox {
 	            	background-color: rgba(0,0,0,0.1);
@@ -28,8 +24,10 @@ export default () => {
 	            }
 			`}</style>
 		<div className="eventList"></div>
-		<div>
-			{eventList}
-		</div>
+		<div>{
+			eventData.events.map((event, i) => {
+				return <EventCard key={i} event={event}/>
+			})
+		}</div>
 	</div>
 }
