@@ -1,7 +1,7 @@
 import Meta from '../layouts/meta';
 import Header from '../components/header';
 import EventCard from '../components/event-card';
-import events from '../resources/events.json'
+import events from '../resources/events'
 
 export default () =>
     <div className='container content-page schedule'>
