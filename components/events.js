@@ -1,5 +1,3 @@
-import React from 'react';
-import classNames from 'classnames';
 import EventCard from './event-card';
 import eventData from '../resources/events.json';
 
