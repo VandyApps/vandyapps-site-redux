@@ -46,9 +46,6 @@ class Events extends React.Component {
 	            	font-size: 16px;
 	            }
 			`}</style>
-			<h1>Schedule</h1>
-			<p>This page will list the events VandyApps will hold throughout the year. It's also
-			being regularly updated so please be sure to check back often!</p>
 			<div className="eventList"></div>
 			<div>
 				{eventList}
