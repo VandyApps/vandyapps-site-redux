@@ -1,11 +1,11 @@
 import Meta from '../layouts/meta';
 import Header from '../components/header';
 import Events from '../components/events';
-let eventData = require('../resources/events.json');
-let i = 0;
+import eventData from '../resources/events.json';
+
 export default () =>
-	<div className ='container schedule'>
-		<style jsx>{`
+    <div className='container schedule'>
+        <style jsx>{`
 			.schedule .content {
                  max-width: 900px;
                  line-height: 1.66em;
@@ -39,9 +39,9 @@ export default () =>
 
 
 		`}</style>
-		<Meta />
-		<Header />
-		<div className="content">
-			<Events />
-		</div>
-	</div>
+        <Meta />
+        <Header />
+        <div className="content">
+            <Events />
+        </div>
+    </div>
