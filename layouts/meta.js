@@ -4,7 +4,7 @@ export default () => (
     <div>
         <Head>
             <title>VandyApps</title>
-            <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <style jsx global>{`
@@ -29,7 +29,7 @@ export default () => (
             .content {
                 margin: 7em auto 4em;
             }
-            
+
             .content h1, .content h2, .content h3, .content h4 , .content h5 {
                     font-weight: normal;
             }
