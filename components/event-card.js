@@ -7,6 +7,7 @@ export default ({ event: event }) => <ul className="event-card" style={{ backgro
         list-style-type: none;
         padding: 1.5em;
         color: white;
+        margin: 1.75em 0;
     }
 
     .event-title {
