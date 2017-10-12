@@ -1,11 +1,12 @@
 import randomColor from '../resources/random-color'
 
-export default ({ event: event }) => <ul className="event-card" style={{ backgroundColor: randomColor(event.date) }}>
+export default ({ event: event }) => <ul className="event-card" style={{ backgroundColor: randomColor(event.name) }}>
     <style jsx>{`
     .event-card {
         border-radius: 4px;
         list-style-type: none;
         padding: 1.5em;
+        color: white;
     }
 
     .event-title {
