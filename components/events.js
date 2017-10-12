@@ -23,11 +23,10 @@ export default () => {
 	            	font-size: 16px;
 	            }
 			`}</style>
-		<div className="eventList"></div>
-		<div>{
+		{
 			eventData.events.map((event, i) => {
 				return <EventCard key={i} event={event}/>
 			})
-		}</div>
+		}
 	</div>
 }
