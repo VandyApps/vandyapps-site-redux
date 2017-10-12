@@ -3,18 +3,18 @@ import { withRouter } from 'next/router'
 import Link from 'next/link'
 import ActiveLink from './activelink'
 import classNames from 'classnames'
+import eventData from '../resources/events.json';
 
 export default class extends React.Component {
 	constructor(props) {
 		super(props);
-		this.eventData = require('../resources/events.json');
 		this.state = {
 			value: 3,
 		};
 	}
 	render() {
 		var color = 0;
-		var eventList = this.eventData.events.map(function(event, i){
+		var eventList = eventData.events.map(function(event, i){
 			color = "rgba("+parseInt(255 * Math.random())+","+parseInt(255 * Math.random())+","+parseInt(255 * Math.random())+",0.5)";
         	return (<ul key = {i} className = "eventBox" style={{backgroundColor: color}}>
         			<li className = "eventTitle">{event.name}</li>

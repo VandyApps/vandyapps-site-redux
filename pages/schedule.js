@@ -1,7 +1,6 @@
 import Meta from '../layouts/meta';
 import Header from '../components/header';
 import Events from '../components/events';
-import eventData from '../resources/events.json';
 
 export default () =>
     <div className='container schedule'>
