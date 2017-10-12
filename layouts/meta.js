@@ -26,6 +26,18 @@ export default () => (
                 height: inherit;
             }
 
+            .container.content-page .content {
+                 max-width: 900px;
+                 line-height: 1.66em;
+                 padding: 0 2.5em;
+            }
+
+            @media (min-width: 680px) {
+                .container.content-page .content {
+                    padding: 0 4em;
+                }
+            }
+
             .content {
                 margin: 7em auto 4em;
             }

@@ -2,20 +2,7 @@ import Meta from '../layouts/meta'
 import Header from '../components/header'
 
 export default () =>
-    <div className='container about'>
-        <style jsx>{`
-            .about .content {
-                 max-width: 900px;
-                 line-height: 1.66em;
-                 padding: 0 2.5em;
-            }
-
-            @media (min-width: 680px) {
-                .about .content {
-                    padding: 0 4em;
-                }
-            }
-        `}</style>
+    <div className='container content-page about'>
         <Meta />
         <Header />
         <div className="content">
