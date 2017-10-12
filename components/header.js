@@ -16,6 +16,7 @@ class Header extends React.Component {
     }
 
     componentDidMount() {
+        this.handleScroll();
         window.addEventListener('scroll', this.handleScroll);
     }
 
@@ -60,7 +61,7 @@ class Header extends React.Component {
 
                 .header.scrolled, .header.menu-open, .header.landing.menu-open {
                     background: #fff;
-                    box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+                    box-shadow: 0 0 0 .5px rgba(0,0,0,0.075), 0px 0px 20px rgba(0,0,0,0.15);
                 }
 
                 .header > * {

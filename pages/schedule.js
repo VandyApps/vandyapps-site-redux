@@ -14,9 +14,9 @@ export default () =>
         `}</style>
         <div className="content">
             <h1>Schedule</h1>
-            <p>During the school year, we typically hold meetings from 7-8PM on Tuesdays in Featheringill 134. Records of our past events are displayed below. To receive notifications about upcoming meetings, please sign up for our mailing list.</p>
+            <p>During the school year, we typically hold weekly meetings from 7-8PM on Tuesdays in Featheringill 134. Records of our past events are displayed below. To receive notifications about upcoming meetings, please sign up for our mailing list.</p>
             <div className="event-list">
-                {events.map((event, i) => <EventCard key={i} event={event} />)}
+                {events.map((event, i) => <EventCard key={i} event={event} eventKey={i} />)}
             </div>
         </div>
     </div>
