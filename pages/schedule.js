@@ -12,31 +12,10 @@ export default () =>
             }
 
             @media (min-width: 680px) {
-                .about .content {
+                .schedule .content {
                     padding: 0 4em;
                 }
             }
-
-			h1 {
-                font-weight: normal;
-            }
-            .event {
-            	background-color: rgba(0,0,0,0.1);
-            	border-radius: 5px;
-            	list-style-type: none;
-            }
-            .hidden {
-            	display: none;
-            }
-            .eventTitle {
-            	font-size: 20px;
-            	font-weight: bold;
-            }
-            .eventDate {
-            	font-size: 16px;
-            }
-
-
 		`}</style>
         <Meta />
         <Header />
