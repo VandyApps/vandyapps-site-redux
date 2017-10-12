@@ -1,6 +1,6 @@
 import randomColor from '../resources/random-color'
 
-export default ({ event: event, eventKey: key }) => <ul className="event-card" style={{ borderTop: `4px solid ${randomColor(key)}` }}>
+export default ({ event: event, eventKey: key }) => <div className="event-card" style={{ borderTop: `4px solid ${randomColor(key)}` }}>
     <style jsx>{`
     .event-card {
         border-radius: 4px;
@@ -22,4 +22,4 @@ export default ({ event: event, eventKey: key }) => <ul className="event-card" s
     <div className="event-date">{event.date}</div>
     <div className="event-title">{event.name}</div>
     {event.descr()}
-</ul>
+</div>
