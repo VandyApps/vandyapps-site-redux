@@ -126,7 +126,7 @@ class Header extends React.Component {
                 }
 
                 @media (min-width: 680px) {
-                    .header, .header.menu-open, .header.landing.menu-open {
+                    .header, .header.scrolled, .header.menu-open, .header.landing.menu-open {
                         padding: 2.5em 4em 0;
                         position: static;
                         background: transparent;
