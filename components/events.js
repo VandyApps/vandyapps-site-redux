@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ActiveLink from './activelink'
 import classNames from 'classnames'
 
-class Events extends React.Component {
+export default class extends React.Component {
 	constructor(props) {
 		super(props);
 		this.eventData = require('../resources/events.json');
@@ -53,5 +53,3 @@ class Events extends React.Component {
 		</div>
 	}
 }
-
-export default withRouter(Events)
