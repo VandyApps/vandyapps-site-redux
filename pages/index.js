@@ -86,12 +86,12 @@ export default class extends React.Component {
       .logo {
         width: 130px;
         padding-top: 11px;
-        transition: opacity .15s;
+        transition: ${firstLoad ? 'opacity .15s' : 'none'};
         vertical-align: bottom;
       }
 
       .logo-content {
-        transition: opacity 1s;
+        transition: ${firstLoad ? 'opacity 1s' : 'none'};
         position: relative;
         text-align: center;
       }
