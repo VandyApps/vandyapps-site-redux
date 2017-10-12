@@ -29,6 +29,10 @@ export default () => (
             .content {
                 margin: 7em auto 4em;
             }
+            
+            .content h1, .content h2, .content h3, .content h4 , .content h5 {
+                    font-weight: normal;
+            }
 
             @media (min-width: 680px) {
                 .content {

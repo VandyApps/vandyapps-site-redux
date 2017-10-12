@@ -1,8 +1,7 @@
 import EventCard from './event-card';
 import eventData from '../resources/events.json';
 
-export default () => {
-	return <div className="event-list">
+export default () => <div className="event-list">
 		<style jsx global>{`
 				.eventBox {
 	            	background-color: rgba(0,0,0,0.1);
@@ -27,4 +26,3 @@ export default () => {
 			})
 		}
 	</div>
-}

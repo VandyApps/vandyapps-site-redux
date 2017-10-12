@@ -15,10 +15,6 @@ export default () =>
                     padding: 0 4em;
                 }
             }
-
-            h1 {
-                font-weight: normal;
-            }
         `}</style>
         <Meta />
         <Header />
