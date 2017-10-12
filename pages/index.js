@@ -45,7 +45,7 @@ export default class extends React.Component {
         <div className='logo-content' style={{ opacity: mounted ? 1 : 0 }}>
           <div className='logo-title'>We are Vanderbilt's<br />student-run CS club.</div>
           <div className='logo-buttons'>
-            <div className='logo-btn primary'>See events</div>
+            <Link href="/schedule"><a className='logo-btn primary'>See events</a></Link>
             <Link href="/about"><a className='logo-btn'>About</a></Link>
           </div>
         </div>
