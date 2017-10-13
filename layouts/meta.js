@@ -21,6 +21,15 @@ export default () => (
                 margin: 0;
             }
 
+            a {
+                text-decoration: none;
+                color: #5c91d6;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
             .container {
                 font-family: 'Nunito', sans-serif;
                 height: inherit;
