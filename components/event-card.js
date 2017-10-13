@@ -3,7 +3,6 @@ import randomColor from '../resources/random-color'
 export default ({ event: event, eventKey: key }) => <div className="event-card shadow-layer" style={{ borderTop: `4px solid ${randomColor(key)}` }}>
     <style jsx>{`
     .event-card {
-        border-radius: 4px;
         padding: 1.5em;
         margin: 2.5em 0;
     }
