@@ -148,11 +148,33 @@ export default class extends React.Component {
         border: 1px solid #f05854;
         color: #f05854;
         background-color: rgba(255, 255, 255, 0.6);
+        transition: all 0.25s;
       }
 
       .logo-btn.primary {
-        color: #fff;
         background-color: #f05854;
+      }
+
+      .logo-btn.primary, .logo-btn.primary:hover, .logo-btn.primary:active {
+        color: #fff;
+      }
+
+      .logo-btn:hover {
+        border: 1px solid #f47671;
+        color: #f47671;
+      }
+
+      .logo-btn.primary:hover {
+        background-color: #f47671;
+      }
+
+      .logo-btn:active {
+        border: 1px solid #e3403b;
+        color: #e3403b;
+      }
+
+      .logo-btn.primary:active {
+        background-color: #e3403b;
       }
 
       .logo-btn:first-child {
