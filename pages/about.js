@@ -1,10 +1,32 @@
 import Meta from '../layouts/meta'
 import Header from '../components/header'
+import OfficerProfile from '../components/officer-profile'
 
 export default () =>
     <div className='container content-page about'>
         <Meta />
         <Header />
+        <style jsx>{`
+            .officers {
+                margin-top: -1em;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-left: -8px;
+            }
+
+            .flex-hack {
+                width: 150px;
+                height: 0;
+                margin: 0 -15px;
+            }
+
+            @media (min-width: 900px) {
+                .flex-hack {
+                    display: none;
+                }
+            }
+        `}</style>
         <div className="content">
             <h1>About Us</h1>
             <p>Founded in 2009 as the Vanderbilt Mobile Applications Team, VandyApps started as a group highly committed to developing quality, practical
@@ -17,6 +39,15 @@ export default () =>
         the Vanderbilt community and also the greater Nashville community to give Tech Talks on special topics in Software
         Development. Our members go on to work at some of the best companies in the technology industry.</p>
             <h1>Officers</h1>
-            <p>Aaa</p>
+            <div className="officers">
+                <OfficerProfile photoSrc="https://placekitten.com/304/304" name="Varun Arora" position="Co-President" />
+                <OfficerProfile photoSrc="https://placekitten.com/305/305" name="Patrick Pei" position="Co-President" />
+                <OfficerProfile photoSrc="https://placekitten.com/301/301" name="John Valin" position="Vice President" />
+                <OfficerProfile photoSrc="https://placekitten.com/302/302" name="Yunyu Lin" position="Treasurer" />
+                <OfficerProfile photoSrc="https://placekitten.com/308/308" name="Sachit Bhat" position="Secretary" />
+                <OfficerProfile photoSrc="https://placekitten.com/314/314" name="Omayow Adebanjo" position="Liaison" />
+                <div className="flex-hack"/>
+                <div className="flex-hack"/>
+            </div>
         </div>
     </div>

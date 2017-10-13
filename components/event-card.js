@@ -10,7 +10,7 @@ export default ({ event: event, eventKey: key }) => <div className="event-card" 
     }
 
     .event-date {
-        font-size: .75em;
+        font-size: .85em;
         color: #a1a1a1;
     }
 
