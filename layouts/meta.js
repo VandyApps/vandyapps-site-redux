@@ -1,11 +1,13 @@
 import Head from 'next/head'
 
-export default () => (
+export default ({ title: title }) => (
     <div>
         <Head>
-            <title>VandyApps</title>
+            <title>{title}</title>
             <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link href="/static/favicon.png" rel="icon" type="image/png" />
+            <meta content="VandyApps is dedicated to teaching software development, preparing our members for internships and jobs, and building apps on the web, mobile platforms, and more." name="description" />
         </Head>
         <style jsx global>{`
             html { 

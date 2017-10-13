@@ -38,7 +38,7 @@ export default class extends React.Component {
     let logoLoaded = this.state.logoLoaded;
     let mounted = this.state.mounted;
     return <div className='container home'>
-      <Meta />
+      <Meta title="VandyApps" />
       <Header />
       <div className='logo-wrapper'>
         <img className='logo' src={logoSrc} style={{ opacity: logoLoaded ? 1 : 0 }} ref={img => this.imgEl = img} />

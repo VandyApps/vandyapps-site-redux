@@ -3,8 +3,8 @@ import Header from '../components/header'
 
 export default () =>
     <div className='container content-page resources'>
-        <Meta />
-        <Header />
+    <Meta title="Resources | VandyApps" />
+    <Header />
         <style jsx>{`
         .library-wrapper {
             position: relative;

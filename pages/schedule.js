@@ -5,8 +5,8 @@ import events from '../resources/events'
 
 export default () =>
     <div className='container content-page schedule'>
-        <Meta />
-        <Header />
+    <Meta title="Schedule | VandyApps" />
+    <Header />
         <style jsx>{`
             .event-list {
                 margin-top: 1.75em;

@@ -4,8 +4,8 @@ import OfficerProfile from '../components/officer-profile'
 
 export default () =>
     <div className='container content-page about'>
-        <Meta />
-        <Header />
+    <Meta title="About | VandyApps" />
+    <Header />
         <style jsx>{`
             .officers {
                 margin-top: -1em;
