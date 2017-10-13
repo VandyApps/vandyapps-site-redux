@@ -1,11 +1,14 @@
 const PHOTO_WIDTH = '100px';
 
-export default ({photoSrc: photo, name: name, position: position}) => <div className="officer-profile">
+export default ({ photoSrc: photo, name: name, position: position }) => <div className="officer-profile">
     <style jsx>{`
         .officer-profile {
-            width: 150px;
+            flex: 1 1 0;
+            min-width: 150px;
             text-align: center;
-            margin: 1.5em -15px 0;
+            box-shadow: inset 0 0 0 .5px rgba(0,0,0,0.125), 0 12.5px 30px rgba(0,0,0,0.07);
+            padding: 1.5em .5em;
+            margin: 2em 1em 0;
         }
 
         .photo {
@@ -17,7 +20,6 @@ export default ({photoSrc: photo, name: name, position: position}) => <div class
         .name {
             padding-top: .75em;
             font-weight: bold;
-            font-size: .9em;
         }
 
         .position {

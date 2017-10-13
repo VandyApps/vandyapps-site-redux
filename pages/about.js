@@ -10,21 +10,15 @@ export default () =>
             .officers {
                 margin-top: -1em;
                 display: flex;
-                justify-content: space-between;
                 flex-wrap: wrap;
-                margin-left: -8px;
+                align-items: stretch;
+                margin: -1.5em -1em 0;
             }
 
-            .flex-hack {
-                width: 150px;
-                height: 0;
-                margin: 0 -15px;
-            }
-
-            @media (min-width: 900px) {
-                .flex-hack {
-                    display: none;
-                }
+            .dummy-item {
+                flex: 1 1 0;
+                min-width: 150px;
+                margin: 0 1.5em;
             }
         `}</style>
         <div className="content">
@@ -46,8 +40,10 @@ export default () =>
                 <OfficerProfile photoSrc="https://placekitten.com/302/302" name="Yunyu Lin" position="Treasurer" />
                 <OfficerProfile photoSrc="https://placekitten.com/308/308" name="Sachit Bhat" position="Secretary" />
                 <OfficerProfile photoSrc="https://placekitten.com/314/314" name="Omayow Adebanjo" position="Liaison" />
-                <div className="flex-hack"/>
-                <div className="flex-hack"/>
+                <div className="dummy-item"/>
+                <div className="dummy-item"/>
+                <div className="dummy-item"/>
+                <div className="dummy-item"/>
             </div>
         </div>
     </div>
