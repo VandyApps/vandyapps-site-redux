@@ -44,7 +44,7 @@ export default () => (
 
             .content h1, .content h2, .content h3, .content h4 , .content h5 {
                     font-weight: normal;
-                    margin-top: 1em;
+                    margin-top: 1.25em;
             }
 
             @media (min-width: 680px) {
