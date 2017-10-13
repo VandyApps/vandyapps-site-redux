@@ -54,7 +54,6 @@ export default class extends React.Component {
         body {
           background-image: url('/static/va-bg.jpg');
           background-size: cover;
-          background-position: top;
         }
 
         .container {
