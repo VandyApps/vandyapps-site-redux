@@ -34,12 +34,12 @@ export default () =>
         Development. Our members go on to work at some of the best companies in the technology industry.</p>
             <h1>Officers</h1>
             <div className="officers">
-                <OfficerProfile photoSrc="https://placekitten.com/304/304" name="Varun Arora" position="Co-President" />
-                <OfficerProfile photoSrc="https://placekitten.com/305/305" name="Patrick Pei" position="Co-President" />
-                <OfficerProfile photoSrc="https://placekitten.com/301/301" name="John Valin" position="Vice President" />
-                <OfficerProfile photoSrc="https://placekitten.com/302/302" name="Yunyu Lin" position="Treasurer" />
-                <OfficerProfile photoSrc="https://placekitten.com/308/308" name="Sachit Bhat" position="Secretary" />
-                <OfficerProfile photoSrc="https://placekitten.com/314/314" name="Omayow Adebanjo" position="Liaison" />
+                <OfficerProfile photoSrc="/static/officers/varun-arora.jpg" name="Varun Arora" position="Co-President" />
+                <OfficerProfile photoSrc="/static/officers/patrick-pei.jpg" name="Patrick Pei" position="Co-President" />
+                <OfficerProfile photoSrc="/static/officers/john-valin.jpg" name="John Valin" position="Vice President" />
+                <OfficerProfile photoSrc="/static/officers/yunyu-lin.jpg" name="Yunyu Lin" position="Treasurer" />
+                <OfficerProfile photoSrc="/static/officers/sachit-bhat.jpg" name="Sachit Bhat" position="Secretary" />
+                <OfficerProfile photoSrc="/static/officers/omayow-adebanjo.jpg" name="Omayow Adebanjo" position="Liaison" />
                 <div className="dummy-item"/>
                 <div className="dummy-item"/>
                 <div className="dummy-item"/>
