@@ -1,12 +1,11 @@
 const PHOTO_WIDTH = '100px';
 
-export default ({ photoSrc: photo, name: name, position: position }) => <div className="officer-profile">
+export default ({ photoSrc: photo, name: name, position: position }) => <div className="officer-profile shadow-layer">
     <style jsx>{`
         .officer-profile {
             flex: 1 1 0;
             min-width: 150px;
             text-align: center;
-            box-shadow: inset 0 0 0 .5px rgba(0,0,0,0.125), 0 12.5px 30px rgba(0,0,0,0.07);
             padding: 1.5em .5em;
             margin: 2em 1em 0;
         }

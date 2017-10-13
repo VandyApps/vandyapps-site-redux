@@ -52,5 +52,11 @@ export default () => (
                     margin-top: 4em;
                 }
             }
+
+            .shadow-layer {
+                border-radius: 4px;
+                box-shadow: inset 0 0 0 .5px rgba(0,0,0,0.125), 0 12.5px 30px rgba(0,0,0,0.07);
+                background: #fff;
+            }
         `}</style>
     </div>)
