@@ -70,6 +70,8 @@ class Header extends React.Component {
 
                 .header .va-logo-wrapper {
                     cursor: pointer;
+                    /* Edge being stupid */
+                    width: 190px;
                 }
 
                 .header .va-logo {
