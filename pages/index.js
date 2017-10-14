@@ -148,6 +148,7 @@ export default class extends React.Component {
         color: #f05854;
         background-color: rgba(255, 255, 255, 0.6);
         transition: all 0.25s;
+        -webkit-tap-highlight-color: transparent;
       }
 
       .logo-btn.primary {
