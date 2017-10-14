@@ -20,7 +20,7 @@ export default () =>
         `}</style>
         <div className="content">
             <h1>GitHub</h1>
-            <p>All of the materials from the weekly sessions are available from our <a href="https://github.com/vandyapps">GitHub organization</a>:</p>
+            <p>All of the materials from our weekly sessions are available from our <a href="https://github.com/vandyapps">GitHub organization</a>:</p>
             <ul>
                 <li><b>Android development:</b> <a href="https://github.com/VandyApps/android-2017-18">VandyApps/android-2017-18</a></li>
                 <li><b>iOS development:</b> <a href="https://github.com/VandyApps/intro-ios">VandyApps/intro-ios</a></li>
