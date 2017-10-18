@@ -23,7 +23,7 @@ export default () =>
             <p>All of the materials from our weekly sessions are available from our <a href="https://github.com/vandyapps">GitHub organization</a>:</p>
             <ul>
                 <li><b>Android development:</b> <a href="https://github.com/VandyApps/android-2017-18">VandyApps/android-2017-18</a></li>
-                <li><b>iOS development:</b> <a href="https://github.com/VandyApps/intro-ios">VandyApps/intro-ios</a></li>
+                <li><b>iOS development:</b> <a href="https://github.com/VandyApps/intro-ios-2017">VandyApps/intro-ios-2017</a></li>
                 <li><b>Web development:</b> <a href="https://github.com/VandyApps/web-2017-18">VandyApps/web-2017-18</a></li>
             </ul>
             <p>Numerous other repositories, including apps that we've published and submissions from our coding competitions, can also be found on GitHub. Feel free to look around!</p>
