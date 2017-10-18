@@ -1,5 +1,20 @@
 export default [
 	{
+		name: `General Body Meeting #4`,
+		date: `10/17/17 - 7:00PM to 8:00PM`,
+		descr: () =>
+			<div>
+				<p>Come down to Jacob's Auditorium for our meeting. Here's a breakdown of what's going on tonight:</p>
+				<ul>
+					<li>Tech Talk: All About Cadre, a Real Estate Startup, with Aaron Smith (former VandyApps President)</li>
+					<li>Intro to iOS: Swift 2 - More Swift!</li>
+					<li>Intro to Web: Let's Make a Server!</li>
+					<li>Please come with Node.js installed</li>
+					<li>Intro to Android: Launching an App to the Public</li>
+				</ul>
+			</div>
+	},
+	{
 		name: `Fall Break: No Meeting`,
 		date: `10/10/17 - Cancelled`,
 		descr: () =>
