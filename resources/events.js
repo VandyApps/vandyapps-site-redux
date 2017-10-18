@@ -9,7 +9,9 @@ export default [
 					<li>Tech Talk: All About Cadre, a Real Estate Startup, with Aaron Smith (former VandyApps President)</li>
 					<li>Intro to iOS: Swift 2 - More Swift!</li>
 					<li>Intro to Web: Let's Make a Server!</li>
-					<li>Please come with Node.js installed</li>
+					<ul>
+						<li>Please come with Node.js installed</li>
+					</ul>
 					<li>Intro to Android: Launching an App to the Public</li>
 				</ul>
 			</div>
