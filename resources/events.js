@@ -1,5 +1,13 @@
 export default [
 	{
+		name: `Post-VandyHacks: No Meeting`,
+		date: `10/24/17 - Cancelled`,
+		descr: () =>
+			<div>
+				<p>There will be no meeting tonight in order to give everyone a break from VandyHacks. We hope everyone attended this past weekend and had a blast!</p>
+			</div>
+	},
+	{
 		name: `General Body Meeting #4`,
 		date: `10/17/17 - 7:00PM to 8:00PM`,
 		descr: () =>
