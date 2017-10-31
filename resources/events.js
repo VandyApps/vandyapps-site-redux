@@ -4,7 +4,7 @@ export default [
 		date: `10/31/17 - 7:00PM to 8:00PM`,
 		descr: () => 
 			<div>
-				<p>Swing by Jacob's Auditorium for our meeting tonight. We have all of our regular sessions, as well as another special interview prep workshop.</p>
+				<p>Swing by Jacobs Auditorium for our meeting tonight. We have all of our regular sessions, as well as another special interview prep workshop.</p>
 				<ul>
 					<li>Intro to iOS: Swift 2 - More Swift</li>
 					<li>Intro to Web: Intro to SQL with Express</li>
@@ -26,7 +26,7 @@ export default [
 		date: `10/17/17 - 7:00PM to 8:00PM`,
 		descr: () =>
 			<div>
-				<p>Come down to Jacob's Auditorium for our meeting. Here's a breakdown of what's going on tonight:</p>
+				<p>Come down to Jacobs Auditorium for our meeting. Here's a breakdown of what's going on tonight:</p>
 				<ul>
 					<li>Tech Talk: All About Cadre, a Real Estate Startup, with Aaron Smith (former VandyApps President)</li>
 					<li>Intro to iOS: Swift 2 - More Swift!</li>
@@ -51,7 +51,7 @@ export default [
 		date: `10/03/17 - 7:00PM to 8:00PM`,
 		descr: () =>
 			<div>
-				<p>Swing by Jacob's Auditorium for our meeting tonight. We have a bunch of exciting sessions, including a special one for everyone to look forward to:</p>
+				<p>Swing by Jacobs Auditorium for our meeting tonight. We have a bunch of exciting sessions, including a special one for everyone to look forward to:</p>
 				<ul>
 					<li>Intro to iOS: Storyboards and an intro to Swift</li>
 					<li>Intro to Web: Building a hip messaging app oriented towards Millenials</li>
@@ -73,7 +73,7 @@ export default [
 		date: `9/26/17 - 7:00PM to 8:00PM`,
 		descr: () =>
 			<div>
-				<p>Come on by Jacob's Auditorium for our meeting tonight. We have a bunch of exciting sessions as well as a tech talk lined up for everyone:</p>
+				<p>Come on by Jacobs Auditorium for our meeting tonight. We have a bunch of exciting sessions as well as a tech talk lined up for everyone:</p>
 				<ul>
 					<li>Tech Talk: Introduction to Webpack</li>
 					<li>Intro to Android: Diving into Webviews and Activities</li>
