@@ -66,7 +66,7 @@ export default ({ title: title }) => (
 
             .shadow-layer {
                 border-radius: 4px;
-                box-shadow: inset 0 0 0 .5px rgba(0,0,0,0.125), 0 12.5px 30px rgba(0,0,0,0.07);
+                box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 12.5px 40px rgba(0,0,0,0.07);
                 background: #fff;
             }
         `}</style>

@@ -9,7 +9,7 @@ export default () =>
         .library-wrapper {
             position: relative;
             overflow: hidden;
-            box-shadow: 0 0 0 .5px rgba(0,0,0,0.125), 0 12.5px 30px rgba(0,0,0,0.07);
+            box-shadow: 0 2px 3px rgba(0,0,0,0.05), 0 12.5px 40px rgba(0,0,0,0.07);
             border-radius: 4px;
         }
 
