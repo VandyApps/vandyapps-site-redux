@@ -45,7 +45,7 @@ class Header extends React.Component {
         return <div className={className}>
             <style jsx global>{`
                 .header {
-                    padding: 1.5em 2.5em 1.5em;
+                    padding: 1.5em 2em 1.5em;
                     box-sizing: border-box;
                     width: 100%;
                     font-family: 'Nunito', sans-serif;

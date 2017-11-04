@@ -41,7 +41,7 @@ export default ({ title: title }) => (
             .container.content-page .content {
                  max-width: 900px;
                  line-height: 1.66em;
-                 padding: 0 2.5em;
+                 padding: 0 2em;
             }
 
             @media (min-width: 680px) {
