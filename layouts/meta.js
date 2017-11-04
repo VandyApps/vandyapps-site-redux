@@ -8,6 +8,7 @@ export default ({ title: title }) => (
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="/static/favicon.png" rel="icon" type="image/png" />
             <meta content="VandyApps is dedicated to teaching software development, preparing our members for internships and jobs, and building apps on the web, mobile platforms, and more." name="description" />
+            <meta name="theme-color" content="#000000" />
         </Head>
         <style jsx global>{`
             html { 
