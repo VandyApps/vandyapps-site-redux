@@ -1,8 +1,22 @@
 export default [
 	{
+		name: `General Body Meeting #6`,
+		date: `10/31/17 - 7:00PM to 8:00PM`,
+		descr: () =>
+			<div>
+				<p>We're coming up on another round of midterms but don't let that stop you from coming to VandyApps. We've got our usual roster of sessions tonight.</p>
+				<p>Come on down to Jacobs Auditorium for our meeting tonight.</p>
+				<ul>
+					<li>Intro to iOS: Finishing the Tip Calculator App</li>
+					<li>Intro to Web: Intro to React</li>
+					<li>Intro to Android: Introduction to Litho</li>
+				</ul>
+			</div>
+	},
+	{
 		name: `General Body Meeting #5`,
 		date: `10/31/17 - 7:00PM to 8:00PM`,
-		descr: () => 
+		descr: () =>
 			<div>
 				<p>Swing by Jacobs Auditorium for our meeting tonight. We have all of our regular sessions, as well as another special interview prep workshop.</p>
 				<ul>
