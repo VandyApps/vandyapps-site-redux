@@ -1,7 +1,16 @@
 export default [
 	{
+		name: `E-Day Event: Code Golf`,
+		date: `11/14/17 - 7:30PM to 8:30PM`,
+		descr: () =>
+			<div>
+				<p>VandyApps will be hosting Code Golf today at 7:30 pm in FGH 134 as part of E-Day, in partnership with the E-Council. There will be a total of $100 in prizes for the top 3 winners. This event is beginner-friendly, so don't worry if you've never competed in code golf before!</p>
+				<p>Make sure to attend the E-Day Keynote Speech at 6pm for dinner from Noodles and Co.</p>
+			</div>
+	},
+	{
 		name: `General Body Meeting #6`,
-		date: `10/31/17 - 7:00PM to 8:00PM`,
+		date: `11/07/17 - 7:00PM to 8:00PM`,
 		descr: () =>
 			<div>
 				<p>We're coming up on another round of midterms but don't let that stop you from coming to VandyApps. We've got our usual roster of sessions tonight.</p>
