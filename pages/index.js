@@ -20,17 +20,22 @@ export default class extends React.Component {
 
   componentDidMount() {
     this.setState({ mounted: true });
-    apngDetect(apng => {
-      this.setState({ logoLoaded: true });
-      if (apng) {
-        if (firstLoad) {
-          firstLoad = false;
+    const setLogoLoaded = () => this.setState({ logoLoaded: true });
+    const useStaticLogo = () => this.setState({ logoSrc: '/static/vandyapps-static.png' });
+    if (firstLoad) {
+      firstLoad = false;
+      apngDetect(apng => {
+        setLogoLoaded();
+        if (apng) {
           resetGif(this.imgEl);
+        } else {
+          useStaticLogo();
         }
-      } else {
-        this.setState({ logoSrc: '/static/vandyapps-static.png' });
-      }
-    });
+      });
+    } else {
+      setLogoLoaded();
+      useStaticLogo();
+    }
   }
 
   render() {
