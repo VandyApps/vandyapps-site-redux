@@ -31,6 +31,7 @@ export default class extends React.Component {
         } else {
           useStaticLogo();
         }
+        setTimeout(useStaticLogo, 1000);
       });
     } else {
       setLogoLoaded();
@@ -83,6 +84,14 @@ export default class extends React.Component {
         align-items: center;
       }
 
+      /* Force preload */
+      .logo-wrapper::before {
+        height: 0;
+        width: 0;
+        content: "";
+        background-image: url('/static/vandyapps-static.png');
+      }
+
       .logo, .logo-content {
         display: inline-block;
       }
@@ -92,6 +101,7 @@ export default class extends React.Component {
         padding-top: 11px;
         transition: ${firstLoad ? 'opacity .15s' : 'none'};
         vertical-align: bottom;
+        opacity: 0;
       }
 
       .logo-content {
@@ -121,6 +131,7 @@ export default class extends React.Component {
         .logo {
           width: 217px;
           height: 166px;
+          image-rendering: -webkit-optimize-contrast;
         }
 
         .logo-content {
