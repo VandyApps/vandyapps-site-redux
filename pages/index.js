@@ -19,7 +19,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ mounted: true });
+    this.setState({ mounted: true, logoLoaded: false });
     const setLogoLoaded = () => this.setState({ logoLoaded: true });
     const useStaticLogo = () => this.setState({ logoSrc: '/static/vandyapps-static.png' });
     if (firstLoad) {

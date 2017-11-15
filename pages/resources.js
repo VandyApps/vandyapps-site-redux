@@ -3,20 +3,21 @@ import Header from '../components/header'
 
 export default () =>
     <div className='container content-page resources'>
-    <Meta title="Resources | VandyApps" />
-    <Header />
+        <Meta title="Resources | VandyApps" />
+        <Header />
         <style jsx>{`
         .library-wrapper {
             position: relative;
             overflow: hidden;
-            box-shadow: 0 2px 3px rgba(0,0,0,0.05), 0 12.5px 40px rgba(0,0,0,0.07);
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.03), 0 2px 3px rgba(0,0,0,0.05), 0 12.5px 40px rgba(0,0,0,0.07);
             border-radius: 4px;
         }
 
         iframe {
             border: none;
-            border-top: 1px solid #f2f2f2;
+            box-sizing: border-box;
             display: block;
+            margin-bottom: -1px;
         }
         `}</style>
         <div className="content">
