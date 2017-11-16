@@ -27,11 +27,10 @@ export default class extends React.Component {
       apngDetect(apng => {
         setLogoLoaded();
         if (apng) {
-          resetGif(this.imgEl);
+          resetGif(this.imgEl, () => setTimeout(useStaticLogo, 1250));
         } else {
           useStaticLogo();
         }
-        setTimeout(useStaticLogo, 1000);
       });
     } else {
       setLogoLoaded();
