@@ -13,7 +13,7 @@ export default ({ photoSrc: photo, name: name, position: position }) => <div cla
         .photo {
             height: ${PHOTO_WIDTH};
             width: ${PHOTO_WIDTH};
-            border-radius: 75px;
+            border-radius: 50%;
         }
 
         .name {
