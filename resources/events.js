@@ -1,5 +1,28 @@
 export default [
     {
+        name: `Post-Thanksgiving Break: No Meeting`,
+        date: '11/28/17 - Cancelled',
+        descr: () => (
+            <div>
+                <p>
+                    There will be no meeting tonight (11/28) to give everyone
+                    studying a little more time. Here's what's going on this
+                    week:
+                </p>
+                <ul>
+                    <li>
+                        <b>WiC - Introduction to AI with Humana: </b>Wednesday,
+                        November 29th, 6:30pm - 7:30pm, FGH136
+                    </li>
+                    <li>
+                        <b>VH, VA, WiC - MLH Local Hack Day: </b>Saturday,
+                        December 2nd, 9:00am - 9:00pm, FGH134
+                    </li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `E-Day Event: Code Golf`,
         date: `11/14/17 - 7:30PM to 8:30PM`,
         descr: () => (
