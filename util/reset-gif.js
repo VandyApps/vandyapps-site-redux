@@ -7,4 +7,4 @@ export default function resetGif(img, onLoad) {
         img.src = imageUrl;
         img.style.opacity = 1;
     }, 50);
-};
+}
