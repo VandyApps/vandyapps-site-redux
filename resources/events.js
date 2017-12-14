@@ -1,5 +1,28 @@
 export default [
     {
+        name: `End of Semester: Final Meeting`,
+        date: `12/05/17 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    We'll be wrapping up the semester tonight with our final
+                    meeting. Make sure to come by for a tech talk, our usual
+                    sessions (minus Web Dev), and a special announcement.
+                </p>
+                <ul>
+                    <li>Tech Talk: Vandy Scheduler by Quinton Hoffman</li>
+                    <li>
+                        Intro to iOS: Super cool iOS wrap-up: going forward!
+                    </li>
+                    <li>
+                        Intro to Android: Performance Hacks / Introduction to
+                        Kotlin
+                    </li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `Post-Thanksgiving Break: No Meeting`,
         date: '11/28/17 - Cancelled',
         descr: () => (
