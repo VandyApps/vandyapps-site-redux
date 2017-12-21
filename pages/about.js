@@ -47,23 +47,18 @@ export default () => (
             <h1>Officers</h1>
             <div className="officers">
                 <OfficerProfile
-                    photoSrc="/static/officers/varun-arora.jpg"
-                    name="Varun Arora"
-                    position="Co-President"
-                />
-                <OfficerProfile
-                    photoSrc="/static/officers/patrick-pei.jpg"
-                    name="Patrick Pei"
-                    position="Co-President"
-                />
-                <OfficerProfile
                     photoSrc="/static/officers/john-valin.jpg"
                     name="John Valin"
-                    position="Vice President"
+                    position="President"
                 />
                 <OfficerProfile
                     photoSrc="/static/officers/yunyu-lin.jpg"
                     name="Yunyu Lin"
+                    position="Vice President"
+                />
+                <OfficerProfile
+                    photoSrc="/static/officers/kenny-li.jpg"
+                    name="Kenneth Li"
                     position="Treasurer"
                 />
                 <OfficerProfile
