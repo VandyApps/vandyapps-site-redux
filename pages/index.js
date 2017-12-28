@@ -12,7 +12,7 @@ export default class extends React.Component {
     constructor() {
         super();
         this.state = {
-            logoSrc: '/static/vandyapps-anim.png',
+            logoSrc: 'https://vandyapps.club/static/vandyapps-anim.png',
             logoLoaded: false,
             mounted: false
         };
@@ -28,7 +28,12 @@ export default class extends React.Component {
             apngDetect(apng => {
                 setLogoLoaded();
                 if (apng) {
-                    resetGif(this.imgEl, () => setTimeout(useStaticLogo, 1250));
+                    const triggerReset = () => resetGif(this.imgEl, () => setTimeout(useStaticLogo, 1250));
+                    if (this.imgEl.complete && this.imgEl.naturalHeight !== 0) {
+                        triggerReset();
+                    } else {
+                        this.imgEl.onload = triggerReset;
+                    }
                 } else {
                     useStaticLogo();
                 }
