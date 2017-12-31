@@ -4,26 +4,32 @@ import Meta from '../layouts/meta';
 import Header from '../components/header';
 import Link from 'next/link';
 import VandyAppsAnim from '../static/va-logo-home.svg';
+import isSMILSupported from '../util/smil-supported.js';
 
 export default class extends React.Component {
   constructor() {
     super();
-    this.state = { mounted: false };
+    this.state = { mounted: false, SMIL: true };
   }
 
   componentDidMount() {
-    this.setState({ mounted: true });
+    this.setState({ mounted: true, SMIL: isSMILSupported() });
   }
 
   render() {
     const mounted = this.state.mounted;
+    const SMIL = this.state.SMIL;
     return (
       <div className="container home">
         <Meta title="VandyApps" />
         <Header />
         <div className="logo-wrapper">
           <div className="logo" style={{ opacity: mounted ? 1 : 0 }}>
-            <VandyAppsAnim />
+            {SMIL ? (
+              <VandyAppsAnim />
+            ) : (
+              <img src="/static/va-logo-static.svg" />
+            )}
           </div>
           <div className="logo-content" style={{ opacity: mounted ? 1 : 0 }}>
             <div className="logo-title">
