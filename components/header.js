@@ -176,7 +176,7 @@ class Header extends React.Component {
                 `}</style>
                 <Link href="/">
                     <div className="va-logo-wrapper">
-                        <img className="va-logo" src="/static/vandyapps.svg" />
+                        <img className="va-logo" src="/static/va-logo-static.svg" />
                         <div className="va-text">VandyApps</div>
                     </div>
                 </Link>

@@ -89,7 +89,7 @@ export default class extends React.Component {
           }
 
           .logo-content {
-            transition: all 1s;
+            transition: opacity 1s, transform 0.75s;
             position: relative;
             text-align: center;
           }
