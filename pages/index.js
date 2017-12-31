@@ -3,7 +3,7 @@ import Meta from '../layouts/meta';
 
 import Header from '../components/header';
 import Link from 'next/link';
-import VandyAppsAnim from '../static/va-logo-home.svg';
+import VandyAppsAnim from '../components/va-logo-anim-inline.svg';
 
 export default class extends React.Component {
   constructor() {
@@ -56,6 +56,44 @@ export default class extends React.Component {
           #__next,
           #__next > div:first-child {
             height: 100%;
+          }
+
+          /* Logo stuff */
+          @keyframes l4-width {
+            from {
+              width: 73px;
+            }
+
+            to {
+              width: 200px;
+            }
+          }
+
+          @keyframes l1-l2-width {
+            from {
+              width: 73px;
+            }
+
+            to {
+              width: 349px;
+            }
+          }
+
+          @keyframes l3-width {
+            from {
+              width: 73px;
+            }
+
+            to {
+              width: 347.5px;
+            }
+          }
+
+          .logo rect {
+            width: 0;
+            animation-fill-mode: forwards;
+            animation-duration: 0.15s;
+            animation-timing-function: ease-in-out;
           }
         `}</style>
         <style jsx>{`
