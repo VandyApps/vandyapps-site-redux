@@ -31,7 +31,7 @@ export default class extends React.Component {
               <img src="/static/va-logo-static.svg" />
             )}
           </div>
-          <div className="logo-content" style={{ opacity: mounted ? 1 : 0 }}>
+          <div className="logo-content" style={{ opacity: mounted ? 1 : 0, transform: `scale(${mounted ? 1 : 1.05})` }}>
             <div className="logo-title">
               We are Vanderbilt's<br />student-run CS club.
             </div>
@@ -89,7 +89,7 @@ export default class extends React.Component {
           }
 
           .logo-content {
-            transition: opacity 1s;
+            transition: all 1s;
             position: relative;
             text-align: center;
           }
