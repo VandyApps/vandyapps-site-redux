@@ -13,5 +13,8 @@
     "react": "16",
     "react-dom": "16"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^0.5.2"
+  }
 }
