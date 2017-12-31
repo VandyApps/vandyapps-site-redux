@@ -16,9 +16,7 @@ export default class extends React.Component {
   }
 
   render() {
-    let logoSrc = this.state.logoSrc;
-    let logoLoaded = this.state.logoLoaded;
-    let mounted = this.state.mounted;
+    const mounted = this.state.mounted;
     return (
       <div className="container home">
         <Meta title="VandyApps" />
