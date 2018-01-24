@@ -8,7 +8,7 @@ export default function(props) {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 456 326.5">
             <Anime
                 width={200}
-                delay={700}
+                delay={650}
                 duration={150}
                 begin={setVisible}
                 easing="easeOutSine"
@@ -26,7 +26,7 @@ export default function(props) {
             </Anime>
             <Anime
                 width={349}
-                delay={250}
+                delay={200}
                 duration={150}
                 begin={setVisible}
                 easing="easeOutSine"
@@ -45,7 +45,7 @@ export default function(props) {
             </Anime>
             <Anime
                 width={347.5}
-                delay={550}
+                delay={500}
                 duration={150}
                 begin={setVisible}
                 easing="easeOutSine"
@@ -64,7 +64,7 @@ export default function(props) {
             </Anime>
             <Anime
                 width={349}
-                delay={400}
+                delay={350}
                 duration={150}
                 begin={setVisible}
                 easing="easeOutSine"

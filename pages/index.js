@@ -6,30 +6,27 @@ import AnimatedLogo from '../components/animated-logo';
 import Link from 'next/link';
 
 export default class extends React.Component {
-    constructor() {
-        super();
-        this.state = { mounted: false };
-    }
+    state = { loaded: false };
 
     componentDidMount() {
-        this.setState({ mounted: true });
+        window.addEventListener('load', () => this.setState({ loaded: true }));
     }
 
     render() {
-        const mounted = this.state.mounted;
+        const { loaded } = this.state;
         return (
             <div className="container home">
                 <Meta title="VandyApps" />
                 <Header />
                 <div className="logo-wrapper">
                     <div className="logo">
-                        {mounted && <AnimatedLogo />}
+                        {loaded && <AnimatedLogo />}
                     </div>
                     <div
                         className="logo-content"
                         style={{
-                            opacity: mounted ? 1 : 0,
-                            transform: `scale(${mounted ? 1 : 1.05})`
+                            opacity: loaded ? 1 : 0,
+                            transform: `scale(${loaded ? 1 : 1.05})`
                         }}
                     >
                         <div className="logo-title">
