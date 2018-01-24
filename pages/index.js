@@ -6,14 +6,15 @@ import Link from 'next/link';
 import LogoSMIL from '../components/logo-smil';
 import LogoAnime from '../components/logo-anime';
 
-import isSMILSupported from '../resources/smil-supported'
+import isSMILSupported from '../resources/smil-supported';
+import runOnLoad from '../resources/run-on-load';
 
 export default class extends React.Component {
     state = { loaded: false };
 
     componentDidMount() {
         this.setState({ smil: isSMILSupported() });
-        window.addEventListener('load', () => this.setState({ loaded: true }));
+        runOnLoad(() => this.setState({ loaded: true }));
     }
 
     render() {
