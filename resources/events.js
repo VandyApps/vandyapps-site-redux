@@ -1,5 +1,23 @@
 export default [
     {
+        name: `General Body Meeting #8`,
+        date: `01/23/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>Phillip Goldberg will be giving a tech talk on his company ConsenSys which supports developer ecosystems and startups launching applications on the Ethereum blockchain! You may just become the next crypto billionaire if you come so make sure you stop in!</p>
+                <p>Additionally we will be having our normal weekly sessions:</p>
+                <ul>
+                    <li>Web Development: WTF are Position and Display</li>
+                    <li>iOS</li>
+                    <li>Git and Github: The basics of branches</li>
+                    <li>Internship and Resume workshop</li>
+                    <li>A discussion: Let's talk about Vandy's CS department</li>
+                </ul>
+                <p>A quick reminder to bring resumes for the Internship and resume workshop and also that having a mac is required for the iOS session.</p>
+            </div>
+        )
+    },
+    {
         name: `End of Semester: Final Meeting`,
         date: `12/05/17 - 7:00PM to 8:00PM`,
         descr: () => (
