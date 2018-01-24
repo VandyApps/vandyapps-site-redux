@@ -2,25 +2,29 @@ import React from 'react';
 import Meta from '../layouts/meta';
 
 import Header from '../components/header';
-import AnimatedLogo from '../components/animated-logo';
 import Link from 'next/link';
+import LogoSMIL from '../components/logo-smil';
+import LogoAnime from '../components/logo-anime';
+
+import isSMILSupported from '../resources/smil-supported'
 
 export default class extends React.Component {
     state = { loaded: false };
 
     componentDidMount() {
+        this.setState({ smil: isSMILSupported() });
         window.addEventListener('load', () => this.setState({ loaded: true }));
     }
 
     render() {
-        const { loaded } = this.state;
+        const { loaded, smil } = this.state;
         return (
             <div className="container home">
                 <Meta title="VandyApps" />
                 <Header />
                 <div className="logo-wrapper">
                     <div className="logo">
-                        {loaded && <AnimatedLogo />}
+                        {loaded && (smil ? <LogoSMIL /> : <LogoAnime />)}
                     </div>
                     <div
                         className="logo-content"
