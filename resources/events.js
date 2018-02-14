@@ -1,19 +1,88 @@
 export default [
     {
+        name: `Microsoft Event`,
+        date: `2/13/18 - 7:00 PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hope you all had a great weekend and are ready for another
+                    week and another VandyApps meeting! We have something
+                    different going on this week, as Microsoft will be joining
+                    us on Tuesday! First and foremost
+                    they're going to be giving a tech talk on working at
+                    Microsoft, so if you're interested in working there sometime
+                    in the future it would be in your best interest to attend.
+                </p>
+                <p>
+                    Additionally, Tommy, a Vandy Alumni and current Microsoft
+                    Employee will be giving a workshop on his work on the
+                    Microsoft HoloLens experience team! After that we'll have
+                    some meet and greet time if you'd like to chat with either
+                    of the Microsoft reps, ask them questions, get resume
+                    advice, etc.
+                </p>
+                <p>
+                    Just a note that no other sessions will be running tomorrow,
+                    so you won't be missing out if you go to the Microsoft
+                    workshop. They'll pick back up next week.
+                </p>
+            </div>
+        )
+    },
+    {
+        name: `General Body Meeting #9`,
+        date: `2/6/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hopefully you're all doing well and are ready for another
+                    round of VandyApps sessions.
+                </p>
+                <p>Our sessions for this week are as follows:</p>
+                <ul>
+                    <li>iOS</li>
+                    <li>Command line basics</li>
+                    <li>Internship and Resume workshop</li>
+                </ul>
+                <p>
+                    Also, please take some time to fill out this{' '}
+                    <a href="https://goo.gl/65vyd6">survey</a> to let the career
+                    center know what companies you would like to see at the next
+                    career fair! They will be looking at responses and reaching
+                    out to the companies you all put down.
+                </p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #8`,
         date: `01/23/18 - 7:00PM to 8:00PM`,
         descr: () => (
             <div>
-                <p>Phillip Goldberg will be giving a tech talk on his company ConsenSys which supports developer ecosystems and startups launching applications on the Ethereum blockchain! You may just become the next crypto billionaire if you come so make sure you stop in!</p>
-                <p>Additionally we will be having our normal weekly sessions:</p>
+                <p>
+                    Phillip Goldberg will be giving a tech talk on his company
+                    ConsenSys which supports developer ecosystems and startups
+                    launching applications on the Ethereum blockchain! You may
+                    just become the next crypto billionaire if you come so make
+                    sure you stop in!
+                </p>
+                <p>
+                    Additionally we will be having our normal weekly sessions:
+                </p>
                 <ul>
                     <li>Web Development: WTF are Position and Display</li>
                     <li>iOS</li>
                     <li>Git and Github: The basics of branches</li>
                     <li>Internship and Resume workshop</li>
-                    <li>A discussion: Let's talk about Vandy's CS department</li>
+                    <li>
+                        A discussion: Let's talk about Vandy's CS department
+                    </li>
                 </ul>
-                <p>A quick reminder to bring resumes for the Internship and resume workshop and also that having a mac is required for the iOS session.</p>
+                <p>
+                    A quick reminder to bring resumes for the Internship and
+                    resume workshop and also that having a mac is required for
+                    the iOS session.
+                </p>
             </div>
         )
     },
