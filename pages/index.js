@@ -57,14 +57,6 @@ export default class extends React.Component {
                         display: flex;
                         flex-direction: column;
                     }
-
-                    html,
-                    body,
-                    body > div:first-child,
-                    #__next,
-                    #__next > div:first-child {
-                        height: 100%;
-                    }
                 `}</style>
                 <style jsx>{`
                     .home {

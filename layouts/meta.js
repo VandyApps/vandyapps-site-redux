@@ -30,11 +30,13 @@ export default ({ title: title }) => (
             }
 
             html,
-            body,
-            body > div:first-child,
-            #__next,
-            #__next > div:first-child {
+            body {
+                height: 100%;
                 margin: 0;
+            }
+
+            #__next {
+                height: 100%;
             }
 
             a {
