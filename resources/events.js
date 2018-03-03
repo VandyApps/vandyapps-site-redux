@@ -1,17 +1,79 @@
 export default [
     {
+        name: `General Body Meeting #10`,
+        date: `2/27/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hopefully you're all doing well and are ready for another
+                    round of VandyApps sessions.
+                </p>
+                <p>
+                    Today, we will be having Bill from the Career Center over to
+                    give a quick intro and information on how to take best
+                    advantage of the Career center. He's also going to be having
+                    a session afterwards, for more information and potentially
+                    some one on one help.
+                </p>
+                <p>Our sessions for this week are as follows:</p>
+                <ul>
+                    <li>Git: The basics of branches</li>
+                    <li>Learning JavaScript from Java</li>
+                    <li>Career Center breakout session (With Bill)</li>
+                </ul>
+                <p>
+                    <b>Also, a message from WiC:</b> Applications for Emerge
+                    2018 Executive Board are now live!
+                </p>
+                <p>
+                    Emerge is Nashville's annual emerging technology symposium
+                    hosted at Vanderbilt by WiC, to be held on October 27 this
+                    fall. Applications close at 11:59pm on Friday, March 2.
+                    Apply{' '}
+                    <a href="https://goo.gl/forms/ZsEO6uueqwmfE4Z12">here</a>!
+                </p>
+            </div>
+        )
+    },
+    {
+        name: `Midterm Season: No Meeting`,
+        date: `2/20/18 - Cancelled`,
+        descr: () => (
+            <div>
+                <p>
+                    There will NOT be a VandyApps meeting today, as we want you
+                    all to be able to attend the various other Google and WiC
+                    events going on.
+                </p>
+                <p>
+                    If you haven't heard about them, here's what's happening
+                    this week:
+                </p>
+                <ul>
+                    <li>Intro to Design Thinking, 2/20 at 6pm in SC 4327</li>
+                    <li>Grow with Google, 2/20 at 7:30pm in SC 4327</li>
+                    <li>Google Cloud Platform, 2/21 at 6pm in SC 4327</li>
+                    <li>Office Hours, 2/21 at 7:30pm in SC 4327</li>
+                    <li>
+                        Advanced Bracketology, 2/25 at 1:00PM in ESB 044/048
+                    </li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `Microsoft Event`,
-        date: `2/13/18 - 7:00 PM to 8:00PM`,
+        date: `2/13/18 - 7:00PM to 8:00PM`,
         descr: () => (
             <div>
                 <p>
                     Hope you all had a great weekend and are ready for another
                     week and another VandyApps meeting! We have something
                     different going on this week, as Microsoft will be joining
-                    us on Tuesday! First and foremost
-                    they're going to be giving a tech talk on working at
-                    Microsoft, so if you're interested in working there sometime
-                    in the future it would be in your best interest to attend.
+                    us on Tuesday! First and foremost they're going to be giving
+                    a tech talk on working at Microsoft, so if you're interested
+                    in working there sometime in the future it would be in your
+                    best interest to attend.
                 </p>
                 <p>
                     Additionally, Tommy, a Vandy Alumni and current Microsoft
