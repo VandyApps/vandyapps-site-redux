@@ -1,5 +1,70 @@
 export default [
     {
+        name: `General Body Meeting #11`,
+        date: `3/20/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hopefully you're all doing well, and are ready for another
+                    round of VandyApps sessions!
+                </p>
+                <p>
+                    Our sessions for this week are as follows (We have a new
+                    session this week):
+                </p>
+                <ul>
+                    <li>WTF is Functional Programming</li>
+                    <li>Learning JavaScript from Java</li>
+                    <li>Ben's Session</li>
+                </ul>
+
+                <p>
+                    This Wednesday, March 21st from 5-11pm in FGH134 VandyHacks
+                    will be hosting a Data Science Hack Night! Nashville's Chief
+                    Data Officer Robyn Mace will be kicking off the event with a
+                    Tech Talk, followed by an intro Python workshop on Data
+                    Science! Students of ALL majors and backgrounds are welcome.
+                    Beginners especially are encouraged to attend.{' '}
+                    <b>Free food will be provided</b>, and make sure to bring a
+                    laptop. No prior experience is necessary. All attendees have
+                    a chance to win some awesome prizes. Please RSVP through{' '}
+                    <a href="http://bit.ly/VHNight">this form</a> if you plan on
+                    attending.
+                </p>
+
+                <p>
+                    A Peabody professor (with a good amount of CS background) is
+                    looking for students for work on these projects:
+                </p>
+                <ul>
+                    <li>
+                        The "MathNet" collaborative geometry-and-algebra app,
+                        working in communication with the GeoGebra team and with
+                        a developer at UC Davis.
+                    </li>
+                    <li>
+                        The "Voice Coach" idea, hacking Text to Speech for
+                        learning about performing texts.
+                    </li>
+                    <li>
+                        Sensor data collection in a web-based modeling
+                        environment. The project would involve writing code to
+                        allow a device like an Arduino to connect to a
+                        single-page webapp. In particular, to connect to{' '}
+                        <a href="http://www.netlogoweb.org/">NetLogo Web</a>{' '}
+                        and/or <a href="https://www.netsblox.org/">NetsBlox</a>.
+                        This is a NSF REU program.
+                    </li>
+                </ul>
+                <p>
+                    If you're interested or want more info on these projects,
+                    please contact us and we'll do our best to answer your
+                    questions and put you in contact with the professor.
+                </p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #10`,
         date: `2/27/18 - 7:00PM to 8:00PM`,
         descr: () => (
