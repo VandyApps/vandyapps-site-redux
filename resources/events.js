@@ -1,5 +1,20 @@
 export default [
     {
+        name: `General Body Meeting #12`,
+        date: `3/27/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hopefully all your midterms are going well! Our sessions for this week are as follows:</p>
+                <ul>
+                    <li>Intro to Command Line 2</li>
+                    <li>iOS</li>
+                    <li>Ben's Session</li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #11`,
         date: `3/20/18 - 7:00PM to 8:00PM`,
         descr: () => (
