@@ -1,11 +1,59 @@
 export default [
     {
+        name: `Interview Open House`,
+        date: `4/16/18 - 1:00PM to 3:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This Monday, VandyApps is co-hosting a technical interview
+                    open house in <b>Sarratt 112</b> with the Career Center!
+                    Stop by any time between <b>1-3PM</b> to learn more about
+                    technical interviews, and practice your skills with both
+                    practice problems and whiteboard mock interviews given by
+                    students.
+                </p>
+                <p>
+                    People that finish all the problems quickly will receive a
+                    prize, so if you think you've got what it takes, come test
+                    your skills! Don't worry if you have little or no
+                    experience, it's also a great place to learn more and get
+                    some valuable experience before the next recruiting cycle so
+                    you can land your dream internship!
+                </p>
+            </div>
+        )
+    },
+    {
+        name: `General Body Meeting #13`,
+        date: `4/3/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hopefully you're all doing well, and are ready for another
+                    round of VandyApps sessions. We're nearing the end of the
+                    semester, but if you haven't been coming to meetings
+                    lately， don't let that stop you！ We have sessions that
+                    don't depend on past sessions so be sure to swing by.
+                </p>
+                <p>Our sessions for this week are as follows:</p>
+                <ul>
+                    <li>JavaScript from Java</li>
+                    <li>iOS</li>
+                    <li>Ben's Session</li>
+                </ul>
+                <p>We hope to see you there tonight!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #12`,
         date: `3/27/18 - 7:00PM to 8:00PM`,
         descr: () => (
             <div>
                 <p>
-                    Hopefully all your midterms are going well! Our sessions for this week are as follows:</p>
+                    Hopefully all your midterms are going well! Our sessions for
+                    this week are as follows:
+                </p>
                 <ul>
                     <li>Intro to Command Line 2</li>
                     <li>iOS</li>
