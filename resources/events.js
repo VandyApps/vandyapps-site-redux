@@ -1,5 +1,27 @@
 export default [
     {
+        name: `Wrap Up Meeting`,
+        date: `4/17/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Today is our last meeting of the semester, so we have a few
+                    special things for this week.
+                </p>
+                <p>
+                    There will be food, so come by and have some pizza with us!
+                    We will also be having elections during today's meeting.
+                    Come and meet the candidates, and most importantly, let your
+                    voice be heard! Finally, we will be having a tech talk on
+                    how to get the most out of your summer. Whether you have an
+                    internship or not, we'll give you a few tips to make the
+                    most out of whatever you end up doing (in terms of CS).
+                </p>
+                <p>Have a wonderful rest of the school year!</p>
+            </div>
+        )
+    },
+    {
         name: `Interview Open House`,
         date: `4/16/18 - 1:00PM to 3:00PM`,
         descr: () => (
