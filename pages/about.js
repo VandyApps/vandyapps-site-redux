@@ -47,13 +47,13 @@ export default () => (
             <h1>Officers</h1>
             <div className="officers">
                 <OfficerProfile
-                    photoSrc="/static/officers/yunyu-lin.jpg"
-                    name="Yunyu Lin"
+                    photoSrc="/static/officers/emily-markert.jpg"
+                    name="Emily Markert"
                     position="President"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/emily-markert.jpg"
-                    name="Emily Markert"
+                    photoSrc="/static/officers/guillermo-leon.jpg"
+                    name="Guillermo Leon"
                     position="Vice President"
                 />
                 <OfficerProfile
@@ -62,9 +62,14 @@ export default () => (
                     position="Treasurer"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/guillermo-leon.jpg"
-                    name="Guillermo Leon"
-                    position="Liaison"
+                    photoSrc="/static/officers/quinton-hoffman.jpg"
+                    name="Quinton Hoffman"
+                    position="Secretary"
+                />
+                <OfficerProfile
+                    photoSrc="/static/officers/gavin-macpherson.jpg"
+                    name="Gavin MacPherson"
+                    position="Liason"
                 />
                 <div className="dummy-item" />
                 <div className="dummy-item" />

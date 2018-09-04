@@ -1,5 +1,25 @@
 export default [
     {
+        name: `Fall Showcase`,
+        date: `9/4/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Join us at the Fall Showcase for our first event of the semester!
+                </p>
+                <p>
+                    Come enjoy some pizza with us and learn about the amazing
+                    internship, research, and personal projects that your friends
+                    worked on over the summer. This a great chance to both show
+                    off your own work and learn about what opportunities are out
+                    there for next summer. We'll also be announcing our sessions
+                    for the semester, so get excited for some amazing topics!
+                </p>
+                <p>We hope to see you on Tuesday!</p>
+            </div>
+        )
+    },
+    {
         name: `Wrap Up Meeting`,
         date: `4/17/18 - 7:00PM to 8:00PM`,
         descr: () => (
