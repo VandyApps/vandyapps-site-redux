@@ -1,5 +1,25 @@
 export default [
     {
+        name: `General Body Meeting #1`,
+        date: `9/11/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Come by Jacobs Auditorium to get started with one of our exciting new sessions.
+                    This week, we'll have:
+                </p>
+                <ul>
+                    <li>Flutter:  Intro to Flutter</li>
+                    <li>Data Science:  Intro to Data Science</li>
+                    <li>Machine Learning:  Intro to ML</li>
+                    <li>Intro Interview Prep:  Interview Basics/Resumes</li>
+                    <li>Advanced Interview Prep:  DFS with Memoization</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `Fall Showcase`,
         date: `9/4/18 - 7:00PM to 8:00PM`,
         descr: () => (
