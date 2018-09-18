@@ -1,5 +1,27 @@
 export default [
     {
+        name: `GBM #2 with Capital One`,
+        date: `9/18/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    We're back this week with another round of sessions, and also a special guest. Capital One will
+                    be joining us for a Tech Talk and a special breakout session, so you definitely won't want to miss
+                    it! After the Tech Talk, we'll be having the following sessions:
+                </p>
+                <ul>
+                    <li>Capital One Networking Session</li>
+                    <li>Flutter:  Widgets and State</li>
+                    <li>Data Science:  Session 2</li>
+                    <li>Machine Learning:  Linear and Logistic Regression</li>
+                    <li>Intro Interview Prep</li>
+                    <li>Advanced Interview Prep</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #1`,
         date: `9/11/18 - 7:00PM to 8:00PM`,
         descr: () => (
