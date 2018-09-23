@@ -1,5 +1,25 @@
 export default [
     {
+        name: `General Body Meeting #3`,
+        date: `9/25/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Stop on by Jacobs Auditorium this week for some really cool sessions!
+                    We'll be having the following sessions:
+                </p>
+                <ul>		
+                    <li>Flutter: Creating an Event App :)</li>
+                    <li>Data Science:  Session 3</li>
+                    <li>Machine Learning:  Intro to Neural Networks</li>
+                    <li>Intro Interview Prep:  Session 3</li>
+                    <li>Advanced Interview Prep:  Sliding Window</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `GBM #2 with Capital One`,
         date: `9/18/18 - 7:00PM to 8:00PM`,
         descr: () => (
