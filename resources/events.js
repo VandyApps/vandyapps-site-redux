@@ -10,7 +10,7 @@ export default [
                 </p>
                 <ul>		
                     <li>Flutter: Creating an Event App :)</li>
-                    <li>Data Science:  Session 3</li>
+                    <li>Data Science:  Data Visualization Basics</li>
                     <li>Machine Learning:  Intro to Neural Networks</li>
                     <li>Intro Interview Prep:  Session 3</li>
                     <li>Advanced Interview Prep:  Sliding Window</li>
