@@ -1,5 +1,24 @@
 export default [
     {
+        name: `General Body Meeting #4`,
+        date: `10/2/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week we are hosting the following amazing sessions in Jacobs Auditorium!
+                    Come by to check out:
+                </p>
+                <ul>
+                    <li>Data Science:  Advanced Data Visualization</li>
+                    <li>Machine Learning:  Neural Networks</li>
+                    <li>Intro Interview Prep:  Cover Letter</li>
+                    <li>Advanced Interview Prep:  Greedy Algorithms</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #3`,
         date: `9/25/18 - 7:00PM to 8:00PM`,
         descr: () => (
