@@ -1,5 +1,25 @@
 export default [
     {
+        name: `General Body Meeting #5`,
+        date: `10/9/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week we will be having a great Tech Talk from Professor Doug Schmidt that
+                    you won't want to miss! Afterwards, we will continue with out weekly sessions
+                    in Jacobs Auditorium.
+                    This week we are having:
+                </p>
+                <ul>
+                    <li>Flutter:  Adding an Event's Page</li>
+                    <li>Data Science:  Machine Learning</li>
+                    <li>Advanced Interview Prep:  Dynamic Programming</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #4`,
         date: `10/2/18 - 7:00PM to 8:00PM`,
         descr: () => (
