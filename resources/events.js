@@ -1,5 +1,29 @@
 export default [
     {
+        name: `General Body Meeting #6`,
+        date: `10/16/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hope everyone is excited for Fall Break! Come this week for some great
+                    sessions that will give you all the knowledge you need to show off to your
+                    family and friends while you are home!
+                </p>
+                 <p>
+                    This week we are having:
+                </p>
+                <ul>
+                    <li>Flutter:  Maps</li>
+                    <li>Data Science:  Prediction Analysis Part II</li>
+                    <li>Machine Learning:  Neural Networks Part II</li>
+                    <li>Intro to Interview Prep:  Intro to Technical Questions</li>
+                    <li>Advanced Interview Prep:  Dynamic Programming</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #5`,
         date: `10/9/18 - 7:00PM to 8:00PM`,
         descr: () => (
