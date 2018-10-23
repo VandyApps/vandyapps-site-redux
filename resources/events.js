@@ -1,5 +1,36 @@
 export default [
     {
+        name: `General Body Meeting #7`,
+        date: `10/23/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hope everyone had a great and restful Fall Break!
+                </p>
+                <p>
+                    VandyApps will be hosting <b>Mock Interviews</b> 
+                    in partnership with the Career Center to help you crush your interviews
+                    and land your dream internship/job! Stop by <b>FGH 134 next 
+                    Tuesday (10/30) between 3 and 5 p.m.</b>, and one of our "interviewers" 
+                    will walk you through a mock technical interview. We'll have questions 
+                    geared towards all levels of experience, so even if you've never done 
+                    a technical interview before, this is a great place to start practicing!
+                </p>
+                <p>
+                    This week we will be having the following sessions:
+                </p>
+                <ul>
+                    <li>Flutter: Firebase Backend</li>
+                    <li>Data Science: Prediction and Analysis II</li>
+                    <li>Machine Learning: Neural Networks Part II</li>
+                    <li>Intro Interview Prep: Intro to Maps</li>
+                    <li>Advanced Interview Prep: Linked Lists</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #6`,
         date: `10/16/18 - 7:00PM to 8:00PM`,
         descr: () => (
