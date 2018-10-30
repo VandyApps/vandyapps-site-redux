@@ -1,5 +1,31 @@
 export default [
     {
+        name: `General Body Meeting #8`,
+        date: `10/30/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    We will be hosting <b>Mock Interviews</b>&nbsp;
+                    tomorrow in  <b>FGH 134 between 3 and 5 p.m.</b>. We'll have questions
+                    geared towards all levels of experience, so even if you've never done
+                    a technical interview before, this is a great place to start practicing! 
+                    We will also have <b>Tiff's Treats</b>! Come by to get some and 
+                    get interview practice as well!
+                </p>
+                <p>
+                    This week we will also be having the following sessions:
+                </p>
+                <ul>
+                    <li>Flutter: Firebase Backend</li>
+                    <li>Machine Learning: Neural Networks Part III</li>
+                    <li>Intro Interview Prep: Intro to Linked Lists</li>
+                    <li>Advanced Interview Prep: Bit Manipulation</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #7`,
         date: `10/23/18 - 7:00PM to 8:00PM`,
         descr: () => (
