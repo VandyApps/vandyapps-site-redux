@@ -1,5 +1,34 @@
 export default [
     {
+        name: `General Body Meeting #9`,
+        date: `11/6/18 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Come by this week to hear Dr. Graham Hemingway give a Tech Talk! 
+                    Followed by our sessions.
+                </p>
+                <p>
+                    We will be hosting a <b>Code Golf Competition</b> next Tuesday, 11/13, from 
+                    7-9pm in FGH 134! We will have many awesome prizes like: an 
+                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more! 
+                    We will also be catering Taziki's, so make sure to stop by for 
+                    a fun coding competition!
+                </p>
+                <p>
+                    This week we will also be having the following sessions:
+                </p>
+                <ul>
+                    <li>Flutter: Firebase Backend</li>
+                    <li>Data Science: Your First Kaggle Comp</li>
+                    <li>Intro Interview Prep: Linked Lists Part 2</li>
+                    <li>Advanced Interview Prep: Binary Searhc</li>
+                </ul>
+                <p>We hope to see you there!</p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #8`,
         date: `10/30/18 - 7:00PM to 8:00PM`,
         descr: () => (
