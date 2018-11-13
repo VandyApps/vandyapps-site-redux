@@ -1,4 +1,23 @@
 export default [
+        {
+        name: `General Body Meeting #10`,
+        date: `11/13/18 - 7:00PM to 9:00PM`,
+        descr: () => (
+            <div>
+                 <p>
+                    This week we are hosting a <b>Code Golf Competition</b> from
+                    7-9pm in FGH 134! We will have many awesome prizes like: an 
+                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more! 
+                    We will also be catering Taziki's, so make sure to stop by for 
+                    a fun coding competition!!
+                </p>
+                <p>
+                   There will be no sessions this week.
+                </p>
+                <p>We hope to see you there! And if not, enjoy your Thanksgiving Break!</p>
+            </div>
+        )
+    },
     {
         name: `General Body Meeting #9`,
         date: `11/6/18 - 7:00PM to 8:00PM`,
