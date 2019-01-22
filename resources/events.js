@@ -1,4 +1,29 @@
 export default [
+    {
+        name: `General Body Meeting #14`,
+        date: `1/22/19 - 7:00PM to 9:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    We are back this week with some more great sessions! There will also be pizza!!🍕
+                    Data Science and Web Dev will be switching off each week, and Web Dev starts this week.
+
+                </p>
+                <p>
+                    This week the sessions will be:
+                </p>
+                <ul>
+                    <li>Web Dev</li>
+                    <li>Functional Programming</li>
+                    <li>Interview Prep</li>
+                </ul>
+                <p>We hope to see you there!</p>
+                <p>Lastly, next week Microsoft will be hosting a workshop at the usual meeting time,
+                    so put it down on your calendar!
+                </p>
+            </div>
+        )
+    },
         {
         name: `General Body Meeting #10`,
         date: `11/13/18 - 7:00PM to 9:00PM`,
