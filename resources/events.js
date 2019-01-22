@@ -5,7 +5,7 @@ export default [
         descr: () => (
             <div>
                 <p>
-                    We are back this week with some more great sessions! There will also be pizza!!🍕
+                    We are back this week with some more great sessions! There will also be pizza🍕!!
                     Data Science and Web Dev will be switching off each week, and Web Dev starts this week.
 
                 </p>
