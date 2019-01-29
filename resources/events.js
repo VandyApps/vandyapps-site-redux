@@ -1,6 +1,20 @@
 export default [
+   {
+      name: `General Body Meeting #3`,
+      date: `1/29/19 - 7:00PM to 9:00PM`,
+      descr: () => (
+           <div>
+               <p>
+                   This week, <strong>Microsoft</strong> will be hosting a workshop in place of our normal
+                   sessions! This is a great opportunity to network with some of their representatives and
+                   learn more about Microsoft as a company and what careers there are like.
+               </p>
+               <p> Hope to see you there! </p>
+           </div>
+      )
+   },
     {
-        name: `General Body Meeting #14`,
+        name: `General Body Meeting #2`,
         date: `1/22/19 - 7:00PM to 9:00PM`,
         descr: () => (
             <div>
@@ -31,9 +45,9 @@ export default [
             <div>
                  <p>
                     This week we are hosting a <b>Code Golf Competition</b> from
-                    7-9pm in FGH 134! We will have many awesome prizes like: an 
-                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more! 
-                    We will also be catering Taziki's, so make sure to stop by for 
+                    7-9pm in FGH 134! We will have many awesome prizes like: an
+                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more!
+                    We will also be catering Taziki's, so make sure to stop by for
                     a fun coding competition!!
                 </p>
                 <p>
@@ -49,14 +63,14 @@ export default [
         descr: () => (
             <div>
                 <p>
-                    Come by this week to hear Dr. Graham Hemingway give a Tech Talk! 
+                    Come by this week to hear Dr. Graham Hemingway give a Tech Talk!
                     Followed by our sessions.
                 </p>
                 <p>
-                    We will be hosting a <b>Code Golf Competition</b> next Tuesday, 11/13, from 
-                    7-9pm in FGH 134! We will have many awesome prizes like: an 
-                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more! 
-                    We will also be catering Taziki's, so make sure to stop by for 
+                    We will be hosting a <b>Code Golf Competition</b> next Tuesday, 11/13, from
+                    7-9pm in FGH 134! We will have many awesome prizes like: an
+                    Amazon Echo Dot, a Raspberry Pi, a bluetooth speaker, and more!
+                    We will also be catering Taziki's, so make sure to stop by for
                     a fun coding competition!
                 </p>
                 <p>
@@ -81,8 +95,8 @@ export default [
                     We will be hosting <b>Mock Interviews</b>&nbsp;
                     tomorrow in  <b>FGH 134 between 3 and 5 p.m.</b>. We'll have questions
                     geared towards all levels of experience, so even if you've never done
-                    a technical interview before, this is a great place to start practicing! 
-                    We will also have <b>Tiff's Treats</b>! Come by to get some and 
+                    a technical interview before, this is a great place to start practicing!
+                    We will also have <b>Tiff's Treats</b>! Come by to get some and
                     get interview practice as well!
                 </p>
                 <p>
@@ -107,12 +121,12 @@ export default [
                     Hope everyone had a great and restful Fall Break!
                 </p>
                 <p>
-                    VandyApps will be hosting <b>Mock Interviews</b>&nbsp;  
+                    VandyApps will be hosting <b>Mock Interviews</b>&nbsp;
                     in partnership with the Career Center to help you crush your interviews
-                    and land your dream internship/job! Stop by <b>FGH 134 next 
-                    Tuesday (10/30) between 3 and 5 p.m.</b>, and one of our "interviewers" 
-                    will walk you through a mock technical interview. We'll have questions 
-                    geared towards all levels of experience, so even if you've never done 
+                    and land your dream internship/job! Stop by <b>FGH 134 next
+                    Tuesday (10/30) between 3 and 5 p.m.</b>, and one of our "interviewers"
+                    will walk you through a mock technical interview. We'll have questions
+                    geared towards all levels of experience, so even if you've never done
                     a technical interview before, this is a great place to start practicing!
                 </p>
                 <p>
@@ -201,7 +215,7 @@ export default [
                     Stop on by Jacobs Auditorium this week for some really cool sessions!
                     We'll be having the following sessions:
                 </p>
-                <ul>		
+                <ul>
                     <li>Flutter: Creating an Event App :)</li>
                     <li>Data Science:  Data Visualization Basics</li>
                     <li>Machine Learning:  Intro to Neural Networks</li>
