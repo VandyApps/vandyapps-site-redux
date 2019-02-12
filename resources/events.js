@@ -1,4 +1,21 @@
 export default [
+     {
+      name: `General Body Meeting #5`,
+      date: `2/12/19 - 7:00PM to 8:00PM`,
+      descr: () => (
+           <div>
+               <p>
+                   Capital One will be joining us this week at our normal meeting! 
+                   A group of associates at different levels within Capital One will 
+                   be here to talk about their experiences at the company, along with 
+                   the technologies they work with. They'll also hold a panel discussion 
+                   at the end, so you'll have a chance to ask any questions you may 
+                   have. This will be a great opportunity to learn more about Capital One 
+                   and meet some of their employees, so make sure to stop by at 7!
+               </p>
+           </div>
+      )
+   },
    {
       name: `General Body Meeting #4`,
       date: `2/5/19 - 7:00PM to 8:00PM`,
