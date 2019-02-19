@@ -1,4 +1,27 @@
 export default [
+    {
+      name: `General Body Meeting #6`,
+      date: `2/19/19 - 7:00PM to 8:00PM`,
+      descr: () => (
+           <div>
+               <p>
+                   This week we will be having normal sessions. Come by for some chips, 
+                   salsa, and guac from Moe's as well!
+               </p>
+               <p>
+                   We will be having:
+               </p>
+               <ul>
+                   <li>Web Dev</li>
+                   <li>Functional Programming</li>
+                   <li>Interview Prep</li>
+                   <li>NLP</li>
+               </ul>
+               <p>Hope to see you there!</p>
+
+           </div>
+      )
+   },
      {
       name: `General Body Meeting #5`,
       date: `2/12/19 - 7:00PM to 8:00PM`,
