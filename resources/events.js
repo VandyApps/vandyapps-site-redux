@@ -1,5 +1,29 @@
 export default [
     {
+        name: `General Body Meeting #8`,
+        date: `3/12/19 - 7:00PM to 9:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    Hope everyone had a good Spring Break!
+               </p>
+                <p>
+                    Tonight, we will be having our biannual <strong>Code Golf Competition</strong>, co-hosted by Amazon! 
+                    All skills are welcome! Winners will choose from AirPods, a mini drone, and an echo dot. 
+                    Everyone who submits a solution will be entered into winning a VandyApps sweatshirt.
+               </p>
+                <p>
+                    For the competition, we will release a set of problems to solve. Whoever solves the most problems 
+                    with the least amount of code wins! We will also release large inputs about 15min prior to the end of the competition 
+                    for you to output answers into a file for us to grade.
+                </p>
+                <p>
+                    Hope to see everyone there!
+                </p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #7`,
         date: `2/26/19 - 7:00PM to 8:00PM`,
         descr: () => (
