@@ -1,5 +1,29 @@
 export default [
     {
+        name: `General Body Meeting #11`,
+        date: `4/2/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week we will be having a tech talk by <strong>Intrinsic Value, LLC</strong>! 
+                    Intrinsic Value is a local holding company that works with real estate, technology, 
+                    web-based services, and financial services. They'll be presenting on a few of the 
+                    technologies they develop and use, and related job opportunities. After the Tech Talk, 
+                    our sessions will be:
+               </p>
+                <ul>
+                    <li>Web Dev</li>
+                    <li>Interview Prep</li>
+                    <li>Functional Programming</li>
+                    <li>NLP</li>
+                </ul>
+                <p>
+                    Hope to see everyone there!
+                </p>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #10`,
         date: `3/26/19 - 7:00PM to 8:00PM`,
         descr: () => (
