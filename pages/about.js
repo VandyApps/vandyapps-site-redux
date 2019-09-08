@@ -52,24 +52,29 @@ export default () => (
                     position="President"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/guillermo-leon.jpg"
-                    name="Guillermo Leon"
+                    photoSrc="/static/officers/david-lu.jpg"
+                    name="David Lu"
                     position="Vice President"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/ben-cooper.jpg"
-                    name="Benjamin Cooper"
+                    photoSrc="/static/officers/connor-pinson.jpg"
+                    name="Connor Pinson"
                     position="Treasurer"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/quinton-hoffman.jpg"
-                    name="Quinton Hoffman"
+                    photoSrc="/static/officers/kaleab-gebremichael.jpg"
+                    name="Kaleab Gebremichael"
                     position="Secretary"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/gavin-macpherson.jpg"
-                    name="Gavin MacPherson"
+                    photoSrc="/static/officers/david-witten.jpg"
+                    name="David Witten"
                     position="Liason"
+                />
+                <OfficerProfile
+                    photoSrc="/static/officers/zeinab-ahmed.jpg"
+                    name="Zeinab Ahmed"
+                    position='Design Chair'
                 />
                 <div className="dummy-item" />
                 <div className="dummy-item" />
