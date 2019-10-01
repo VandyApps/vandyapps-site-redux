@@ -25,6 +25,51 @@ export default [
     //     )
     // },
     {
+        name: `General Body Meeting #3`,
+        date: `10/1/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week we will be having our regular workshop sessions:
+               </p>
+                <ul>
+                    <li>Web Development with Ben</li>
+                    <li>Async Programming with Peter</li>
+                    <li>Interview Prep with David</li>
+                </ul>
+            </div>
+        )
+    },
+    {
+        name: `Capital One`,
+        date: `9/24/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week recruiters and software engineers from Capital One will be presenting on 
+                    opportunities they have available in various programs, as well as some of the technologies 
+                    they use in their current roles, with time for a QA afterwards.
+               </p>
+            </div>
+        )
+    },
+    {
+        name: `General Body Meeting #2`,
+        date: `9/17/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    This week we will be having our regular workshop sessions:
+               </p>
+                <ul>
+                    <li>Web Development with Ben</li>
+                    <li>Async Programming with Peter</li>
+                    <li>Interview Prep with David</li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #1`,
         date: `9/10/19 - 7:00PM to 8:00PM`,
         descr: () => (
