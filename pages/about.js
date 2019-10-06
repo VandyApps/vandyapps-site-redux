@@ -57,8 +57,8 @@ export default () => (
                     position="Vice President"
                 />
                 <OfficerProfile
-                    photoSrc="/static/officers/connor-pinson.jpg"
-                    name="Connor Pinson"
+                    photoSrc="/static/officers/conner-pinson.jpg"
+                    name="Conner Pinson"
                     position="Treasurer"
                 />
                 <OfficerProfile
@@ -69,7 +69,7 @@ export default () => (
                 <OfficerProfile
                     photoSrc="/static/officers/david-witten.jpg"
                     name="David Witten"
-                    position="Liason"
+                    position="Liaison"
                 />
                 <OfficerProfile
                     photoSrc="/static/officers/zeinab-ahmed.jpg"
