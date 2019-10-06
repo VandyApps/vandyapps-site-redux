@@ -25,6 +25,22 @@ export default [
     //     )
     // },
     {
+        name: `General Body Meeting #4`,
+        date: `10/8/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                    We will be having our regular workshop sessions this week:
+               </p>
+                <ul>
+                    <li>Web Development with Ben</li>
+                    <li>Async Programming with Peter</li>
+                    <li>Interview Prep with David</li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #3`,
         date: `10/1/19 - 7:00PM to 8:00PM`,
         descr: () => (
