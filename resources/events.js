@@ -30,13 +30,11 @@ export default [
         descr: () => (
             <div>
                 <p>
-                It'll be another normal week for VandyApps, with all of our regular sessions.
-                Stop by FGH 134 at 7 pm tomorrow to learn about:
+                It'll be another normal week for VandyApps, we will not be having Interview Prep this week.
                </p>
                 <ul>
                     <li>Web Development with Ben</li>
                     <li>Async Programming with Peter</li>
-                    <li>Interview Prep with David</li>
                 </ul>
             </div>
         )
