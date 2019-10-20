@@ -25,6 +25,41 @@ export default [
     //     )
     // },
     {
+        name: `General Body Meeting #6`,
+        date: `10/22/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                It'll be another normal week for VandyApps, with all of our regular sessions.
+                Stop by FGH 134 at 7 pm tomorrow to learn about:
+               </p>
+                <ul>
+                    <li>Web Development with Ben</li>
+                    <li>Async Programming with Peter</li>
+                    <li>Interview Prep with David</li>
+                </ul>
+            </div>
+        )
+    },
+    {
+        name: `General Body Meeting #5`,
+        date: `10/15/19 - 7:00PM to 8:00PM`,
+        descr: () => (
+            <div>
+                <p>
+                It'll be another normal week for VandyApps, with all of our regular sessions, 
+                as well as another Special Topic session! Stop by FGH 134 at 7 pm tomorrow to learn about:
+               </p>
+                <ul>
+                    <li>Web Development with Ben</li>
+                    <li>Async Programming with Peter</li>
+                    <li>Interview Prep with David</li>
+                    <li>Special Topic: Unity with Connor</li>
+                </ul>
+            </div>
+        )
+    },
+    {
         name: `General Body Meeting #4`,
         date: `10/8/19 - 7:00PM to 8:00PM`,
         descr: () => (
