@@ -25,21 +25,6 @@ export default [
     //     )
     // },
     {
-        name: `General Body Meeting #6`,
-        date: `10/22/19 - 7:00PM to 8:00PM`,
-        descr: () => (
-            <div>
-                <p>
-                It'll be another normal week for VandyApps, we will not be having Interview Prep this week.
-               </p>
-                <ul>
-                    <li>Web Development with Ben</li>
-                    <li>Async Programming with Peter</li>
-                </ul>
-            </div>
-        )
-    },
-    {
         name: `General Body Meeting #5`,
         date: `10/15/19 - 7:00PM to 8:00PM`,
         descr: () => (
